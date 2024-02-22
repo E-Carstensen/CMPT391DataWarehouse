@@ -34,7 +34,7 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            checkBox1 = new CheckBox();
+            checkbox_instructorFilters = new CheckBox();
             label5 = new Label();
             comboBox3 = new ComboBox();
             textBox1 = new TextBox();
@@ -43,7 +43,7 @@
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
-            checkBox2 = new CheckBox();
+            checkbox_studentFilters = new CheckBox();
             textBox4 = new TextBox();
             label9 = new Label();
             label10 = new Label();
@@ -57,6 +57,8 @@
             label13 = new Label();
             comboBox4 = new ComboBox();
             label_numResults = new Label();
+            comboBox5 = new ComboBox();
+            label14 = new Label();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -77,7 +79,7 @@
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(6, 33);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
+            comboBox1.Size = new Size(53, 23);
             comboBox1.TabIndex = 1;
             // 
             // comboBox2
@@ -115,16 +117,16 @@
             label4.Size = new Size(0, 15);
             label4.TabIndex = 7;
             // 
-            // checkBox1
+            // checkbox_instructorFilters
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(12, 222);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(77, 19);
-            checkBox1.TabIndex = 8;
-            checkBox1.Text = "Instructor";
-            checkBox1.UseVisualStyleBackColor = true;
-            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            checkbox_instructorFilters.AutoSize = true;
+            checkbox_instructorFilters.Location = new Point(12, 222);
+            checkbox_instructorFilters.Name = "checkbox_instructorFilters";
+            checkbox_instructorFilters.Size = new Size(77, 19);
+            checkbox_instructorFilters.TabIndex = 8;
+            checkbox_instructorFilters.Text = "Instructor";
+            checkbox_instructorFilters.UseVisualStyleBackColor = true;
+            checkbox_instructorFilters.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // label5
             // 
@@ -191,16 +193,16 @@
             label8.TabIndex = 16;
             label8.Text = "Rank";
             // 
-            // checkBox2
+            // checkbox_studentFilters
             // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(6, 363);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(67, 19);
-            checkBox2.TabIndex = 17;
-            checkBox2.Text = "Student";
-            checkBox2.UseVisualStyleBackColor = true;
-            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            checkbox_studentFilters.AutoSize = true;
+            checkbox_studentFilters.Location = new Point(6, 363);
+            checkbox_studentFilters.Name = "checkbox_studentFilters";
+            checkbox_studentFilters.Size = new Size(67, 19);
+            checkbox_studentFilters.TabIndex = 17;
+            checkbox_studentFilters.Text = "Student";
+            checkbox_studentFilters.UseVisualStyleBackColor = true;
+            checkbox_studentFilters.CheckedChanged += checkBox2_CheckedChanged;
             // 
             // textBox4
             // 
@@ -245,6 +247,8 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(label14);
+            groupBox1.Controls.Add(comboBox5);
             groupBox1.Controls.Add(comboBox4);
             groupBox1.Controls.Add(label13);
             groupBox1.Controls.Add(searchButton);
@@ -258,7 +262,7 @@
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(comboBox2);
             groupBox1.Controls.Add(label7);
-            groupBox1.Controls.Add(checkBox2);
+            groupBox1.Controls.Add(checkbox_studentFilters);
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(textBox5);
             groupBox1.Controls.Add(textBox1);
@@ -335,6 +339,24 @@
             label_numResults.Text = "0";
             label_numResults.Click += label14_Click;
             // 
+            // comboBox5
+            // 
+            comboBox5.FormattingEnabled = true;
+            comboBox5.Location = new Point(72, 33);
+            comboBox5.Name = "comboBox5";
+            comboBox5.Size = new Size(54, 23);
+            comboBox5.TabIndex = 27;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 7F);
+            label14.Location = new Point(59, 36);
+            label14.Name = "label14";
+            label14.Size = new Size(9, 12);
+            label14.TabIndex = 27;
+            label14.Text = "-";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -343,7 +365,7 @@
             Controls.Add(label_numResults);
             Controls.Add(label12);
             Controls.Add(dataGridView1);
-            Controls.Add(checkBox1);
+            Controls.Add(checkbox_instructorFilters);
             Controls.Add(label4);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -365,7 +387,7 @@
         private Label label2;
         private Label label3;
         private Label label4;
-        private CheckBox checkBox1;
+        private CheckBox checkbox_instructorFilters;
         private Label label5;
         private ComboBox comboBox3;
         private TextBox textBox1;
@@ -374,7 +396,7 @@
         private Label label6;
         private Label label7;
         private Label label8;
-        private CheckBox checkBox2;
+        private CheckBox checkbox_studentFilters;
         private TextBox textBox4;
         private Label label9;
         private Label label10;
@@ -388,5 +410,7 @@
         private DataGridView dataGridView1;
         private Label label12;
         private Label label_numResults;
+        private Label label14;
+        private ComboBox comboBox5;
     }
 }
