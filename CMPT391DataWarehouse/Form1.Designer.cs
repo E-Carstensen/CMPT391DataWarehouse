@@ -29,36 +29,36 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            comboBox1 = new ComboBox();
-            comboBox2 = new ComboBox();
+            combo_year = new ComboBox();
+            combo_sem = new ComboBox();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             checkbox_instructorFilters = new CheckBox();
             label5 = new Label();
-            comboBox3 = new ComboBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            combo_uni = new ComboBox();
+            text_instructorName = new TextBox();
+            text_rank = new TextBox();
+            text_faculty = new TextBox();
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
             checkbox_studentFilters = new CheckBox();
-            textBox4 = new TextBox();
+            text_studentName = new TextBox();
             label9 = new Label();
             label10 = new Label();
-            textBox5 = new TextBox();
+            text_gender = new TextBox();
             label11 = new Label();
             groupBox1 = new GroupBox();
-            textBox6 = new TextBox();
+            label14 = new Label();
+            comboBox5 = new ComboBox();
+            combo_prov = new ComboBox();
+            label13 = new Label();
             searchButton = new Button();
+            text_major = new TextBox();
             dataGridView1 = new DataGridView();
             label12 = new Label();
-            label13 = new Label();
-            comboBox4 = new ComboBox();
             label_numResults = new Label();
-            comboBox5 = new ComboBox();
-            label14 = new Label();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -74,21 +74,21 @@
             label1.Text = "Filters";
             label1.Click += label1_Click;
             // 
-            // comboBox1
+            // combo_year
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(6, 33);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(53, 23);
-            comboBox1.TabIndex = 1;
+            combo_year.FormattingEnabled = true;
+            combo_year.Location = new Point(6, 33);
+            combo_year.Name = "combo_year";
+            combo_year.Size = new Size(53, 23);
+            combo_year.TabIndex = 1;
             // 
-            // comboBox2
+            // combo_sem
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(6, 77);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(121, 23);
-            comboBox2.TabIndex = 2;
+            combo_sem.FormattingEnabled = true;
+            combo_sem.Location = new Point(6, 77);
+            combo_sem.Name = "combo_sem";
+            combo_sem.Size = new Size(121, 23);
+            combo_sem.TabIndex = 2;
             // 
             // label2
             // 
@@ -137,34 +137,34 @@
             label5.TabIndex = 9;
             label5.Text = "University";
             // 
-            // comboBox3
+            // combo_uni
             // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(5, 121);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(121, 23);
-            comboBox3.TabIndex = 10;
+            combo_uni.FormattingEnabled = true;
+            combo_uni.Location = new Point(5, 121);
+            combo_uni.Name = "combo_uni";
+            combo_uni.Size = new Size(121, 23);
+            combo_uni.TabIndex = 10;
             // 
-            // textBox1
+            // text_instructorName
             // 
-            textBox1.Location = new Point(14, 229);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(113, 23);
-            textBox1.TabIndex = 11;
+            text_instructorName.Location = new Point(14, 229);
+            text_instructorName.Name = "text_instructorName";
+            text_instructorName.Size = new Size(113, 23);
+            text_instructorName.TabIndex = 11;
             // 
-            // textBox2
+            // text_rank
             // 
-            textBox2.Location = new Point(14, 317);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(112, 23);
-            textBox2.TabIndex = 12;
+            text_rank.Location = new Point(14, 317);
+            text_rank.Name = "text_rank";
+            text_rank.Size = new Size(112, 23);
+            text_rank.TabIndex = 12;
             // 
-            // textBox3
+            // text_faculty
             // 
-            textBox3.Location = new Point(14, 273);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(113, 23);
-            textBox3.TabIndex = 13;
+            text_faculty.Location = new Point(14, 273);
+            text_faculty.Name = "text_faculty";
+            text_faculty.Size = new Size(113, 23);
+            text_faculty.TabIndex = 13;
             // 
             // label6
             // 
@@ -204,12 +204,12 @@
             checkbox_studentFilters.UseVisualStyleBackColor = true;
             checkbox_studentFilters.CheckedChanged += checkBox2_CheckedChanged;
             // 
-            // textBox4
+            // text_studentName
             // 
-            textBox4.Location = new Point(14, 403);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(112, 23);
-            textBox4.TabIndex = 18;
+            text_studentName.Location = new Point(14, 403);
+            text_studentName.Name = "text_studentName";
+            text_studentName.Size = new Size(112, 23);
+            text_studentName.TabIndex = 18;
             // 
             // label9
             // 
@@ -229,12 +229,12 @@
             label10.TabIndex = 20;
             label10.Text = "Gender";
             // 
-            // textBox5
+            // text_gender
             // 
-            textBox5.Location = new Point(14, 447);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(112, 23);
-            textBox5.TabIndex = 21;
+            text_gender.Location = new Point(14, 447);
+            text_gender.Name = "text_gender";
+            text_gender.Size = new Size(112, 23);
+            text_gender.TabIndex = 21;
             // 
             // label11
             // 
@@ -249,39 +249,67 @@
             // 
             groupBox1.Controls.Add(label14);
             groupBox1.Controls.Add(comboBox5);
-            groupBox1.Controls.Add(comboBox4);
+            groupBox1.Controls.Add(combo_prov);
             groupBox1.Controls.Add(label13);
             groupBox1.Controls.Add(searchButton);
-            groupBox1.Controls.Add(textBox6);
-            groupBox1.Controls.Add(comboBox3);
-            groupBox1.Controls.Add(textBox2);
+            groupBox1.Controls.Add(text_major);
+            groupBox1.Controls.Add(combo_uni);
+            groupBox1.Controls.Add(text_rank);
             groupBox1.Controls.Add(label5);
             groupBox1.Controls.Add(label8);
             groupBox1.Controls.Add(label11);
-            groupBox1.Controls.Add(textBox3);
+            groupBox1.Controls.Add(text_faculty);
             groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(comboBox2);
+            groupBox1.Controls.Add(combo_sem);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(checkbox_studentFilters);
             groupBox1.Controls.Add(label6);
-            groupBox1.Controls.Add(textBox5);
-            groupBox1.Controls.Add(textBox1);
+            groupBox1.Controls.Add(text_gender);
+            groupBox1.Controls.Add(text_instructorName);
             groupBox1.Controls.Add(label9);
             groupBox1.Controls.Add(label10);
-            groupBox1.Controls.Add(textBox4);
-            groupBox1.Controls.Add(comboBox1);
+            groupBox1.Controls.Add(text_studentName);
+            groupBox1.Controls.Add(combo_year);
             groupBox1.Location = new Point(7, 33);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(175, 573);
             groupBox1.TabIndex = 23;
             groupBox1.TabStop = false;
             // 
-            // textBox6
+            // label14
             // 
-            textBox6.Location = new Point(14, 491);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(112, 23);
-            textBox6.TabIndex = 23;
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 7F);
+            label14.Location = new Point(59, 36);
+            label14.Name = "label14";
+            label14.Size = new Size(9, 12);
+            label14.TabIndex = 27;
+            label14.Text = "-";
+            // 
+            // comboBox5
+            // 
+            comboBox5.FormattingEnabled = true;
+            comboBox5.Location = new Point(72, 33);
+            comboBox5.Name = "comboBox5";
+            comboBox5.Size = new Size(54, 23);
+            comboBox5.TabIndex = 27;
+            // 
+            // combo_prov
+            // 
+            combo_prov.FormattingEnabled = true;
+            combo_prov.Location = new Point(5, 165);
+            combo_prov.Name = "combo_prov";
+            combo_prov.Size = new Size(121, 23);
+            combo_prov.TabIndex = 26;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(7, 147);
+            label13.Name = "label13";
+            label13.Size = new Size(53, 15);
+            label13.TabIndex = 25;
+            label13.Text = "Province";
             // 
             // searchButton
             // 
@@ -292,6 +320,13 @@
             searchButton.Text = "Search";
             searchButton.UseVisualStyleBackColor = true;
             searchButton.Click += searchButton_Click;
+            // 
+            // text_major
+            // 
+            text_major.Location = new Point(14, 491);
+            text_major.Name = "text_major";
+            text_major.Size = new Size(112, 23);
+            text_major.TabIndex = 23;
             // 
             // dataGridView1
             // 
@@ -311,23 +346,6 @@
             label12.TabIndex = 25;
             label12.Text = "Number of Courses: ";
             // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Location = new Point(7, 147);
-            label13.Name = "label13";
-            label13.Size = new Size(53, 15);
-            label13.TabIndex = 25;
-            label13.Text = "Province";
-            // 
-            // comboBox4
-            // 
-            comboBox4.FormattingEnabled = true;
-            comboBox4.Location = new Point(5, 165);
-            comboBox4.Name = "comboBox4";
-            comboBox4.Size = new Size(121, 23);
-            comboBox4.TabIndex = 26;
-            // 
             // label_numResults
             // 
             label_numResults.AutoSize = true;
@@ -338,24 +356,6 @@
             label_numResults.TabIndex = 26;
             label_numResults.Text = "0";
             label_numResults.Click += label14_Click;
-            // 
-            // comboBox5
-            // 
-            comboBox5.FormattingEnabled = true;
-            comboBox5.Location = new Point(72, 33);
-            comboBox5.Name = "comboBox5";
-            comboBox5.Size = new Size(54, 23);
-            comboBox5.TabIndex = 27;
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Segoe UI", 7F);
-            label14.Location = new Point(59, 36);
-            label14.Name = "label14";
-            label14.Size = new Size(9, 12);
-            label14.TabIndex = 27;
-            label14.Text = "-";
             // 
             // Form1
             // 
@@ -382,30 +382,30 @@
         #endregion
 
         private Label label1;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
+        private ComboBox combo_year;
+        private ComboBox combo_sem;
         private Label label2;
         private Label label3;
         private Label label4;
         private CheckBox checkbox_instructorFilters;
         private Label label5;
-        private ComboBox comboBox3;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private ComboBox combo_uni;
+        private TextBox text_instructorName;
+        private TextBox text_rank;
+        private TextBox text_faculty;
         private Label label6;
         private Label label7;
         private Label label8;
         private CheckBox checkbox_studentFilters;
-        private TextBox textBox4;
+        private TextBox text_studentName;
         private Label label9;
         private Label label10;
-        private TextBox textBox5;
+        private TextBox text_gender;
         private Label label11;
         private GroupBox groupBox1;
         private Button searchButton;
-        private TextBox textBox6;
-        private ComboBox comboBox4;
+        private TextBox text_major;
+        private ComboBox combo_prov;
         private Label label13;
         private DataGridView dataGridView1;
         private Label label12;
