@@ -35,7 +35,7 @@ namespace CMPT391DataWarehouse
         private void searchButton_Click(object sender, EventArgs e)
         {
 
-            string sqlQuery = "SELECT * FROM Course_Fact_Table as C, ";
+            string sqlQuery = "SELECT * FROM Course_Fact_Table as CFT ";
 
             sqlQuery += checkDateFilters();
             sqlQuery += checkStudentFilters();
@@ -47,6 +47,34 @@ namespace CMPT391DataWarehouse
 
 
 
+        }
+
+
+        private string checkInstructorFilters()
+        {
+            string output = "";
+
+            if(text_instructorName.Text.Length > 0)
+            {
+                output = "Name = '" + text_instructorName.Text +"'";
+            }
+
+            if(text_faculty.Text.Length > 0)
+            {
+                if(output.Length > 0) { output += " AND "; }
+                output += "Faculty = '" + text_faculty.Text + "'";
+            }
+
+            if(text_rank.Text.Length > 0)
+            {
+                if (output.Length > 0) { output += " AND "; }
+                output += "Rank = '" + text_rank.Text + "'";
+            }
+
+            if (output.Length > 0) { output = ", (Select InstructorID FROM Instructor WHERE " +  output + ") AS I"; }
+
+
+            return output;
         }
 
 
@@ -72,7 +100,7 @@ namespace CMPT391DataWarehouse
 
             }
 
-            if (output.Length > 0) { output = "(SELECT StudentID FROM Student WHERE " + output + ") AS S,"; }
+            if (output.Length > 0) { output = ", (SELECT StudentID FROM Student WHERE " + output + ") AS S"; }
 
             return output;
         }
@@ -83,7 +111,7 @@ namespace CMPT391DataWarehouse
             string output = "";
 
             if (combo_year.SelectedIndex > 0 || combo_sem.SelectedIndex > 0) {
-                output += "(SELECT SectionID FROM Section WHERE ";
+                output += ", (SELECT SectionID FROM Section WHERE ";
             }
 
             if (combo_sem.SelectedIndex > 0)
@@ -100,10 +128,39 @@ namespace CMPT391DataWarehouse
                 output += "Year = " + combo_year.SelectedText;
             }
 
-            if (output.Length > 0) { output += ") AS D,"; }
+            if (output.Length > 0) { output += ") AS D"; }
 
             return output;
 
+        }
+
+
+
+        private string addJoinStatements(string input)
+        {
+
+            string output = "";
+            if (input.Contains("StudentID"))
+            {
+                output += "WHERE CFT.StudentID = S.StudentID";
+            }
+
+            if (input.Contains("SectionID"))
+            {
+                if (output.Length > 0) { output += " AND "; }
+                output += "WHERE CFT.SectionID = D.SectionID";
+            }
+
+            if (input.Contains("InstructorID"))
+            {
+                if (output.Length > 0) { output += " AND "; }
+                output += "WHERE CFT.InstructorID = I.InstructorID";
+            }
+
+
+
+
+            return output;
         }
     }
 }
