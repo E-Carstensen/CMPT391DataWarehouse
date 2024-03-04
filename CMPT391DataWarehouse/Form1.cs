@@ -46,7 +46,8 @@ namespace CMPT391DataWarehouse
 
             label_numResults.Text = sqlQuery;
 
-            Console.WriteLine(sqlQuery);
+
+
 
 
 
@@ -119,7 +120,7 @@ namespace CMPT391DataWarehouse
             if (text_gender.Text.Length > 0)
             {
                 if (output.Length > 0) { output += " AND "; }
-                output += "Gender = '" + text_gender + "'";
+                output += "Gender = '" + text_gender.Text + "'";
             }
 
             if (text_major.Text.Length > 0)
@@ -150,10 +151,10 @@ namespace CMPT391DataWarehouse
             if (text_dateYear.Text.Length > 0)
             {
                 if (output.Length > 0) { output += "AND "; }
-                output += "Year = " + text_dateYear;
+                output += "Year = " + text_dateYear.Text;
             }
 
-            if (output.Length > 0) { output =", SELECT SectionID FROM Section WHERE " + output + ") AS D"; }
+            if (output.Length > 0) { output =", (SELECT SectionID FROM Section WHERE " + output + ") AS D"; }
 
             return output;
 
@@ -167,29 +168,29 @@ namespace CMPT391DataWarehouse
             string output = "";
             if (input.Contains("StudentID"))
             {
-                output += "WHERE CFT.StudentID = S.StudentID";
+                output += "CFT.StudentID = S.StudentID";
             }
 
             if (input.Contains("SectionID"))
             {
                 if (output.Length > 0) { output += " AND "; }
-                output += "WHERE CFT.SectionID = D.SectionID";
+                output += "CFT.SectionID = D.SectionID";
             }
 
             if (input.Contains("InstructorID"))
             {
                 if (output.Length > 0) { output += " AND "; }
-                output += "WHERE CFT.InstructorID = I.InstructorID";
+                output += "CFT.InstructorID = I.InstructorID";
             }
 
             if (input.Contains("CourseID"))
             {
                 if (output.Length > 0) { output += " AND "; }
-                output += "WHERE CFT.CourseID = C.CourseID";
+                output += "CFT.CourseID = C.CourseID";
             }
 
 
-
+            if (output.Length > 0) { output = " WHERE " + output; }
             return output;
         }
 
