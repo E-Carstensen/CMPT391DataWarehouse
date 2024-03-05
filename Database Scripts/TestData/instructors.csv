@@ -1,0 +1,1001 @@
+InstructorID,Name,Faculty,Rank,University
+1,Derek Simmons,Business,Visiting Professor,Macewan University
+2,Jose Lawson,Science,Professor,University of Calgary
+3,Emily Simpson,Business,Visiting Professor,Macewan University
+4,Heather Vazquez,Arts,Professor,Macewan University
+5,Steven Green,Science,Visiting Professor,University of Alberta
+6,Alex Sharp,Science,Asspciate Professor,NAIT
+7,Rebecca Herrera,Arts,Lecturer,Macewan University
+8,Matthew Hughes,Arts,Visiting Professor,Macewan University
+9,John Smith,Arts,Asspciate Professor,Macewan University
+10,Tina Welch,Business,Visiting Professor,Macewan University
+11,Anthony Rodriguez,Arts,Asspciate Professor,Macewan University
+12,Lawrence Lawrence,Business,Asspciate Professor,Macewan University
+13,Jennifer Fernandez,Arts,Asspciate Professor,University of Calgary
+14,Eric Trujillo,Science,Asspciate Professor,University of Calgary
+15,April Washington,Arts,Lecturer,University of Calgary
+16,Kathy Hunter,Science,Lecturer,Macewan University
+17,William Wu,Science,Asspciate Professor,University of Calgary
+18,Jacob Ibarra,Business,Visiting Professor,Macewan University
+19,Timothy Powers,Business,Asspciate Professor,Macewan University
+20,Justin Pineda,Science,Lecturer,University of Calgary
+21,Maria Dixon,Business,Visiting Professor,Macewan University
+22,Dylan Patterson,Arts,Visiting Professor,University of Calgary
+23,Felicia Hutchinson,Business,Professor,Macewan University
+24,Zachary Savage,Arts,Visiting Professor,University of Calgary
+25,John Murillo,Science,Lecturer,University of Alberta
+26,Brian Collins,Business,Asspciate Professor,University of Alberta
+27,Gary Bush DDS,Business,Professor,Macewan University
+28,Tiffany Thomas,Science,Lecturer,Macewan University
+29,Kimberly Garcia,Business,Asspciate Professor,University of Alberta
+30,James Vang,Science,Visiting Professor,NAIT
+31,Jonathan Campos,Arts,Asspciate Professor,University of Calgary
+32,Anthony Cross,Arts,Visiting Professor,University of Calgary
+33,Caitlin Armstrong,Science,Lecturer,NAIT
+34,Victoria Brown,Business,Visiting Professor,NAIT
+35,Susan Rodriguez,Arts,Professor,University of Alberta
+36,Ralph Schwartz,Arts,Visiting Professor,University of Calgary
+37,Alexandra Hall,Arts,Visiting Professor,NAIT
+38,Elizabeth Solomon,Science,Professor,University of Calgary
+39,Sean Avila,Arts,Professor,University of Alberta
+40,Michael Stewart,Science,Professor,NAIT
+41,Kelly Butler,Arts,Lecturer,University of Alberta
+42,Julie Vasquez,Arts,Lecturer,NAIT
+43,Rachel Woods,Arts,Visiting Professor,University of Alberta
+44,Amanda Sullivan,Science,Professor,NAIT
+45,Michael Sims,Science,Asspciate Professor,University of Calgary
+46,Victor Higgins,Science,Visiting Professor,NAIT
+47,Amber Stout,Science,Asspciate Professor,University of Calgary
+48,John Lamb,Business,Visiting Professor,NAIT
+49,Beth Wilson,Arts,Lecturer,University of Calgary
+50,Timothy Davis,Business,Professor,NAIT
+51,Sean Johnson,Arts,Lecturer,University of Alberta
+52,Amanda Jones,Business,Professor,NAIT
+53,Austin Soto,Science,Visiting Professor,NAIT
+54,James Wells,Science,Visiting Professor,Macewan University
+55,Glenn Ball,Science,Visiting Professor,University of Alberta
+56,Toni Weiss,Business,Professor,NAIT
+57,Sean Cameron,Arts,Visiting Professor,University of Alberta
+58,Melissa Lloyd,Business,Professor,University of Alberta
+59,Robert Moreno,Arts,Professor,University of Calgary
+60,Nicholas Carr,Science,Visiting Professor,Macewan University
+61,Kristin Parker,Business,Visiting Professor,Macewan University
+62,Jennifer Kelley,Science,Professor,Macewan University
+63,Dwayne Scott,Science,Professor,NAIT
+64,Lindsay Ray,Science,Asspciate Professor,University of Alberta
+65,John Brock,Business,Asspciate Professor,NAIT
+66,Danielle Young,Arts,Lecturer,University of Calgary
+67,Katherine Miller,Business,Professor,Macewan University
+68,Mr. Philip Johnson,Science,Professor,NAIT
+69,Alexander Diaz,Arts,Professor,NAIT
+70,Keith Davis,Science,Lecturer,University of Calgary
+71,Aaron Martinez,Business,Lecturer,University of Calgary
+72,Ashley Chen,Arts,Visiting Professor,University of Calgary
+73,Brian Hall,Arts,Lecturer,NAIT
+74,Andrew Shannon,Business,Visiting Professor,Macewan University
+75,Andrew Brennan,Business,Professor,University of Calgary
+76,Timothy Cruz,Science,Lecturer,University of Alberta
+77,William Maynard,Arts,Professor,NAIT
+78,Casey Richardson,Arts,Lecturer,University of Calgary
+79,John White MD,Arts,Asspciate Professor,NAIT
+80,Nicole Lewis,Science,Professor,NAIT
+81,Debra Reyes,Science,Asspciate Professor,Macewan University
+82,Courtney Rhodes,Science,Lecturer,University of Alberta
+83,Jeffrey Freeman,Science,Visiting Professor,Macewan University
+84,Renee Peterson,Science,Asspciate Professor,University of Alberta
+85,Scott Ford,Arts,Visiting Professor,University of Alberta
+86,Alexander Bennett,Science,Lecturer,University of Calgary
+87,Michael Garcia,Arts,Lecturer,Macewan University
+88,Kim Mason,Science,Professor,Macewan University
+89,Karen Anthony,Science,Professor,NAIT
+90,Bradley White,Arts,Asspciate Professor,Macewan University
+91,Yvonne Scott,Business,Visiting Professor,NAIT
+92,Phillip Phillips,Business,Asspciate Professor,University of Calgary
+93,Robert Kramer,Arts,Visiting Professor,University of Alberta
+94,Karen Taylor,Arts,Lecturer,Macewan University
+95,Christopher Colon,Science,Lecturer,University of Alberta
+96,Kathleen Lopez,Business,Visiting Professor,University of Alberta
+97,Thomas Oconnor,Science,Visiting Professor,University of Calgary
+98,Ross Stevens,Arts,Visiting Professor,University of Alberta
+99,Jordan Phillips,Business,Professor,NAIT
+100,Deborah Cisneros,Science,Visiting Professor,University of Alberta
+101,Lisa Jenkins,Science,Professor,University of Alberta
+102,Jordan Walker,Business,Professor,NAIT
+103,Mrs. Dana White,Arts,Visiting Professor,Macewan University
+104,Christopher Salas,Business,Lecturer,University of Alberta
+105,Alan Middleton,Science,Professor,University of Alberta
+106,Daniel Dudley,Arts,Visiting Professor,University of Alberta
+107,Regina Callahan,Business,Professor,Macewan University
+108,James Jordan,Arts,Asspciate Professor,University of Calgary
+109,Stephen Martinez,Arts,Professor,University of Alberta
+110,Ryan Smith,Business,Lecturer,NAIT
+111,Taylor Nolan MD,Science,Professor,University of Calgary
+112,Christopher Rivera,Business,Lecturer,Macewan University
+113,Micheal Garcia,Science,Asspciate Professor,University of Alberta
+114,Heather Ortiz,Business,Visiting Professor,Macewan University
+115,Kimberly Mason,Arts,Professor,Macewan University
+116,Jennifer Campbell,Business,Professor,Macewan University
+117,Kevin Walker,Science,Asspciate Professor,University of Alberta
+118,Jason Smith,Business,Lecturer,University of Alberta
+119,George Wagner,Business,Asspciate Professor,University of Calgary
+120,Joanne Hubbard,Arts,Visiting Professor,University of Alberta
+121,Gina Sutton,Business,Visiting Professor,University of Alberta
+122,Glenda Mcintyre,Arts,Professor,Macewan University
+123,Raymond Brown,Arts,Professor,University of Calgary
+124,Kathy Hunt,Arts,Visiting Professor,Macewan University
+125,Ronald Jones,Science,Asspciate Professor,University of Calgary
+126,Courtney Wells,Business,Visiting Professor,Macewan University
+127,Michael Hall,Arts,Professor,NAIT
+128,Michael Jackson,Arts,Professor,University of Alberta
+129,Amy Carter,Business,Asspciate Professor,NAIT
+130,Derek Harvey,Science,Asspciate Professor,NAIT
+131,Tracy Patrick,Arts,Lecturer,University of Calgary
+132,Robert Wilson,Business,Asspciate Professor,University of Calgary
+133,Paul Brady,Arts,Lecturer,University of Calgary
+134,Kevin Pruitt,Science,Lecturer,University of Calgary
+135,Amanda Wilson,Science,Asspciate Professor,University of Calgary
+136,Melinda Williams,Arts,Lecturer,NAIT
+137,Jessica Summers,Business,Visiting Professor,University of Calgary
+138,Brendan Rice,Business,Professor,Macewan University
+139,Joshua Johnston,Science,Visiting Professor,NAIT
+140,Sandy Miller,Science,Lecturer,Macewan University
+141,Katherine Faulkner,Science,Asspciate Professor,University of Calgary
+142,Luis Wheeler,Business,Asspciate Professor,Macewan University
+143,Brian Garcia,Arts,Professor,NAIT
+144,Veronica Rich,Science,Professor,University of Calgary
+145,Rachel Green,Arts,Asspciate Professor,Macewan University
+146,Julie Reyes,Business,Lecturer,University of Calgary
+147,Phillip Ortega,Science,Lecturer,Macewan University
+148,George Mcfarland,Science,Asspciate Professor,University of Calgary
+149,Robert Morris,Business,Professor,Macewan University
+150,Cynthia Robertson,Arts,Visiting Professor,NAIT
+151,Robert Townsend,Science,Asspciate Professor,Macewan University
+152,Andrew Thomas,Science,Professor,Macewan University
+153,Russell Brown,Science,Visiting Professor,University of Calgary
+154,Chelsea Wagner,Business,Visiting Professor,Macewan University
+155,Jasmine Santos,Business,Visiting Professor,Macewan University
+156,Frank Duffy,Science,Lecturer,University of Alberta
+157,Victoria Zimmerman,Business,Lecturer,NAIT
+158,Melissa Barnes,Business,Professor,University of Alberta
+159,James Evans,Arts,Asspciate Professor,NAIT
+160,Dana Ochoa,Business,Professor,University of Alberta
+161,Bobby Bishop,Arts,Professor,Macewan University
+162,Kathryn Santiago,Science,Visiting Professor,University of Calgary
+163,Samantha Evans,Arts,Visiting Professor,University of Alberta
+164,Morgan Robles,Science,Professor,University of Calgary
+165,Jacqueline Brown,Business,Lecturer,University of Alberta
+166,Joyce Fleming,Arts,Visiting Professor,University of Alberta
+167,Joshua Wright,Science,Visiting Professor,University of Calgary
+168,Matthew Taylor MD,Business,Asspciate Professor,NAIT
+169,Christian Ford,Science,Professor,University of Calgary
+170,Robert Clark,Arts,Asspciate Professor,University of Calgary
+171,Valerie Cox,Science,Lecturer,NAIT
+172,Catherine Gentry,Science,Professor,Macewan University
+173,Dustin Shaw,Science,Lecturer,University of Calgary
+174,Jonathan Dalton,Science,Visiting Professor,University of Alberta
+175,Sarah Powers,Arts,Professor,University of Alberta
+176,Jeremy Kelley,Science,Visiting Professor,NAIT
+177,Valerie Fisher,Business,Asspciate Professor,University of Calgary
+178,Louis Cooper,Business,Visiting Professor,NAIT
+179,Connie Wood,Business,Lecturer,Macewan University
+180,Bruce Allen,Arts,Visiting Professor,University of Alberta
+181,Terri Gonzalez,Business,Lecturer,University of Alberta
+182,William Hammond,Business,Visiting Professor,University of Alberta
+183,Tony Carpenter,Arts,Asspciate Professor,Macewan University
+184,Charles Fields,Arts,Lecturer,University of Alberta
+185,Audrey Norris,Science,Lecturer,University of Calgary
+186,Mary Maxwell,Arts,Professor,NAIT
+187,Amy Moore,Business,Professor,Macewan University
+188,Thomas Blair,Science,Asspciate Professor,University of Calgary
+189,David Obrien,Business,Professor,University of Calgary
+190,Justin Valencia,Arts,Professor,NAIT
+191,Caitlyn Byrd,Arts,Visiting Professor,University of Alberta
+192,Jerry Joyce,Science,Lecturer,Macewan University
+193,Jessica Rodriguez,Science,Asspciate Professor,University of Alberta
+194,Kari Richards,Science,Asspciate Professor,University of Calgary
+195,Leslie Conner,Business,Asspciate Professor,University of Calgary
+196,Ralph Gonzalez,Science,Visiting Professor,NAIT
+197,James Knight,Science,Visiting Professor,University of Alberta
+198,Glenn Schmidt,Business,Visiting Professor,University of Alberta
+199,Monica Whitehead,Business,Professor,University of Alberta
+200,Matthew Burns,Business,Asspciate Professor,Macewan University
+201,Tammy Buckley,Science,Visiting Professor,NAIT
+202,Tony Johnson,Science,Lecturer,University of Alberta
+203,Connie Meadows,Science,Lecturer,Macewan University
+204,Kellie Mullins,Business,Professor,University of Calgary
+205,Emily Mcneil,Arts,Lecturer,Macewan University
+206,Nicole Petersen,Science,Visiting Professor,University of Calgary
+207,Alex Jennings,Business,Asspciate Professor,University of Alberta
+208,Donna Clarke,Business,Professor,Macewan University
+209,Michele Parker,Arts,Lecturer,University of Alberta
+210,Harold Morris,Science,Visiting Professor,University of Calgary
+211,John Smith,Science,Asspciate Professor,Macewan University
+212,Mary Sharp,Arts,Asspciate Professor,NAIT
+213,Nicholas Hall,Science,Asspciate Professor,University of Calgary
+214,Laura Murray,Arts,Asspciate Professor,University of Calgary
+215,Michelle Schwartz,Science,Lecturer,University of Calgary
+216,David Greene,Science,Asspciate Professor,NAIT
+217,Gloria Snyder,Science,Visiting Professor,Macewan University
+218,Susan Mccullough,Science,Asspciate Professor,NAIT
+219,Aaron Mahoney,Business,Professor,NAIT
+220,Brianna Ritter,Business,Professor,Macewan University
+221,Anthony Washington,Business,Visiting Professor,University of Alberta
+222,Karen Jacobson,Business,Asspciate Professor,Macewan University
+223,Kenneth Rodgers,Business,Visiting Professor,University of Calgary
+224,Brandon Chase,Science,Lecturer,NAIT
+225,Jonathan Vasquez,Business,Asspciate Professor,University of Alberta
+226,Jennifer Fry,Arts,Lecturer,University of Alberta
+227,Pamela Smith,Science,Asspciate Professor,NAIT
+228,Andrew Taylor,Arts,Lecturer,University of Alberta
+229,Ronald Gordon,Arts,Asspciate Professor,University of Alberta
+230,Crystal Haynes,Business,Professor,University of Calgary
+231,Vincent Collins,Science,Asspciate Professor,Macewan University
+232,Carla Davis,Arts,Lecturer,Macewan University
+233,Gabriella Mccarthy,Arts,Professor,NAIT
+234,David Pierce,Science,Professor,Macewan University
+235,Jessica Thomas,Science,Lecturer,Macewan University
+236,Phillip Roy,Arts,Asspciate Professor,University of Calgary
+237,Kenneth Wilson,Science,Lecturer,University of Calgary
+238,Victoria Crawford,Arts,Professor,NAIT
+239,Stephanie George,Arts,Lecturer,NAIT
+240,Mary Roberts,Arts,Asspciate Professor,University of Alberta
+241,John Castillo,Science,Professor,Macewan University
+242,Tammy Diaz,Arts,Asspciate Professor,NAIT
+243,Johnny Smith,Arts,Visiting Professor,Macewan University
+244,Thomas Moore,Arts,Lecturer,NAIT
+245,Mark Taylor,Business,Professor,Macewan University
+246,Christine Cook,Science,Professor,University of Alberta
+247,Patrick Collins,Arts,Asspciate Professor,University of Calgary
+248,Daniel Hart,Business,Professor,NAIT
+249,Brittany Henson,Arts,Professor,University of Calgary
+250,Daniel Thornton,Business,Asspciate Professor,Macewan University
+251,Kathleen Barrett,Business,Asspciate Professor,University of Calgary
+252,Doris Sims,Arts,Professor,Macewan University
+253,Felicia Doyle,Arts,Professor,Macewan University
+254,Bobby Ramirez,Arts,Lecturer,University of Alberta
+255,Kelsey Walker,Arts,Lecturer,Macewan University
+256,Jillian Kelly,Business,Asspciate Professor,University of Alberta
+257,Amy Acosta,Science,Visiting Professor,Macewan University
+258,Gerald Frederick,Science,Visiting Professor,Macewan University
+259,Richard Miller,Business,Asspciate Professor,University of Calgary
+260,Jerry Ramos,Science,Visiting Professor,University of Calgary
+261,Daniel Stanton,Arts,Visiting Professor,University of Alberta
+262,Timothy White,Business,Asspciate Professor,University of Alberta
+263,Sherry Marsh,Science,Lecturer,Macewan University
+264,Larry Velasquez,Arts,Asspciate Professor,NAIT
+265,Christina Rasmussen,Science,Asspciate Professor,University of Alberta
+266,Molly Brown,Business,Asspciate Professor,University of Alberta
+267,Jessica Mcintyre,Business,Asspciate Professor,Macewan University
+268,Jill Washington,Science,Lecturer,University of Alberta
+269,Hannah Brown,Arts,Professor,Macewan University
+270,Brian Brown,Science,Visiting Professor,NAIT
+271,Casey Moore,Business,Professor,University of Alberta
+272,Jared Banks,Arts,Professor,Macewan University
+273,Shannon Oliver,Science,Visiting Professor,NAIT
+274,Zachary Ellis,Arts,Visiting Professor,University of Calgary
+275,Ana Smith,Science,Lecturer,Macewan University
+276,Nathan Keller,Science,Professor,Macewan University
+277,Rebecca Burke,Business,Asspciate Professor,NAIT
+278,Corey Green,Business,Professor,Macewan University
+279,Donna Harris,Arts,Visiting Professor,University of Calgary
+280,Jason Porter,Arts,Professor,University of Calgary
+281,Tiffany Wang,Arts,Visiting Professor,University of Calgary
+282,Stephen Ponce,Science,Professor,Macewan University
+283,Stephanie Ford,Arts,Visiting Professor,NAIT
+284,Jason Stone,Science,Asspciate Professor,Macewan University
+285,Kristen Hill,Science,Visiting Professor,NAIT
+286,Tyler Gardner,Arts,Visiting Professor,University of Calgary
+287,Sherri Bennett,Science,Professor,NAIT
+288,Chris King,Business,Professor,Macewan University
+289,Leah Howard,Science,Asspciate Professor,University of Calgary
+290,Jerry Lawson,Science,Lecturer,University of Calgary
+291,Daniel Le,Business,Visiting Professor,Macewan University
+292,Kristen Gonzalez,Business,Visiting Professor,NAIT
+293,Elizabeth Mcmillan,Arts,Professor,University of Calgary
+294,Veronica Jones,Arts,Asspciate Professor,Macewan University
+295,Samantha Johnson,Business,Visiting Professor,NAIT
+296,Linda Farley,Arts,Professor,Macewan University
+297,Jenny Martinez,Business,Visiting Professor,NAIT
+298,Matthew Hernandez,Arts,Lecturer,Macewan University
+299,Natasha Gutierrez,Arts,Professor,University of Alberta
+300,Hunter Weeks,Business,Lecturer,NAIT
+301,Tammy Rogers,Business,Professor,University of Alberta
+302,Paul Nelson,Business,Visiting Professor,University of Alberta
+303,Timothy Pierce,Arts,Lecturer,University of Calgary
+304,Samuel Reed,Science,Visiting Professor,University of Alberta
+305,Valerie Sandoval,Arts,Asspciate Professor,University of Alberta
+306,Kevin Sherman,Arts,Asspciate Professor,NAIT
+307,Wendy Gomez,Arts,Visiting Professor,University of Alberta
+308,Brittany Jones,Science,Professor,NAIT
+309,Paul Ayala,Arts,Professor,Macewan University
+310,Amanda Moyer,Science,Asspciate Professor,University of Alberta
+311,Erica White,Arts,Asspciate Professor,Macewan University
+312,Philip Smith,Science,Professor,University of Calgary
+313,Tonya Lewis,Arts,Visiting Professor,NAIT
+314,Carolyn Hensley,Science,Asspciate Professor,NAIT
+315,Emily Hood,Business,Lecturer,Macewan University
+316,Brian Harper,Science,Professor,NAIT
+317,Haley Newman,Science,Visiting Professor,NAIT
+318,John Nicholson DDS,Science,Asspciate Professor,University of Calgary
+319,Heather Bauer,Business,Asspciate Professor,NAIT
+320,Tara Morgan,Arts,Asspciate Professor,Macewan University
+321,Lori Kelley,Business,Lecturer,University of Alberta
+322,Mary Lamb,Arts,Visiting Professor,Macewan University
+323,Peggy Thomas,Science,Lecturer,NAIT
+324,Kimberly Leon,Business,Professor,NAIT
+325,Meghan Torres,Science,Visiting Professor,Macewan University
+326,Erin Sherman,Science,Visiting Professor,University of Calgary
+327,Christopher Robinson,Business,Professor,Macewan University
+328,Marcus Hunt,Science,Professor,University of Alberta
+329,Timothy Estes,Arts,Asspciate Professor,University of Alberta
+330,Alexandra Sosa MD,Business,Professor,University of Calgary
+331,Sherry Thomas,Business,Visiting Professor,University of Calgary
+332,Ronald Dunn,Science,Lecturer,NAIT
+333,Jennifer Crane,Arts,Asspciate Professor,University of Alberta
+334,Catherine Thomas,Science,Visiting Professor,University of Alberta
+335,Spencer Perry,Science,Professor,University of Calgary
+336,Erin Anderson,Arts,Asspciate Professor,University of Calgary
+337,Alicia Campbell,Business,Lecturer,University of Calgary
+338,Tracy Allen,Arts,Visiting Professor,University of Alberta
+339,Bryan Woods,Science,Professor,University of Alberta
+340,Julie Bryant,Arts,Asspciate Professor,NAIT
+341,Kent Reid,Science,Asspciate Professor,Macewan University
+342,Steven Hayes,Arts,Lecturer,Macewan University
+343,Dana Castaneda,Business,Professor,University of Alberta
+344,John Mueller DDS,Arts,Asspciate Professor,NAIT
+345,Teresa Case,Arts,Lecturer,University of Alberta
+346,Brett Banks,Arts,Visiting Professor,NAIT
+347,Jessica Lopez,Science,Lecturer,University of Alberta
+348,Gregory Gilbert,Science,Visiting Professor,Macewan University
+349,Catherine Martinez,Science,Visiting Professor,University of Calgary
+350,Jennifer Garner DVM,Arts,Visiting Professor,Macewan University
+351,Shawn Walker,Business,Asspciate Professor,University of Calgary
+352,Heather Mason,Business,Lecturer,NAIT
+353,Stacey Richardson,Business,Visiting Professor,University of Calgary
+354,Alicia Ryan,Science,Professor,NAIT
+355,Danielle Brown,Science,Lecturer,NAIT
+356,Brandon Martinez,Business,Visiting Professor,NAIT
+357,Billy Wagner,Arts,Lecturer,University of Alberta
+358,Heather Holland,Arts,Asspciate Professor,NAIT
+359,Karen Sanders,Arts,Lecturer,University of Calgary
+360,Lynn Griffin,Business,Asspciate Professor,Macewan University
+361,Dr. Adam Walters,Arts,Lecturer,Macewan University
+362,Melanie Bennett,Science,Professor,University of Alberta
+363,Shelia Hobbs,Business,Professor,Macewan University
+364,Roger Lopez,Business,Professor,University of Alberta
+365,Travis Simon,Arts,Asspciate Professor,NAIT
+366,Denise Barrett,Arts,Lecturer,University of Calgary
+367,Jennifer Olsen,Arts,Visiting Professor,University of Calgary
+368,Carrie Smith,Science,Professor,Macewan University
+369,Gregg Jensen,Science,Lecturer,NAIT
+370,Dylan Donovan,Business,Professor,NAIT
+371,Karen Townsend,Science,Visiting Professor,University of Calgary
+372,George Aguilar,Business,Professor,NAIT
+373,Micheal Thomas,Science,Asspciate Professor,University of Calgary
+374,Christopher Newton,Business,Lecturer,University of Alberta
+375,Anthony Harper,Science,Visiting Professor,NAIT
+376,Tracy Moore,Science,Asspciate Professor,Macewan University
+377,Stacey Williamson,Arts,Professor,Macewan University
+378,Raymond Hood,Science,Lecturer,University of Alberta
+379,Amber Maynard,Arts,Lecturer,University of Calgary
+380,David Garcia,Science,Visiting Professor,University of Calgary
+381,David Lambert,Science,Asspciate Professor,NAIT
+382,Katherine Fowler,Arts,Lecturer,University of Alberta
+383,Barbara Green,Science,Visiting Professor,Macewan University
+384,Heather Soto,Business,Visiting Professor,NAIT
+385,Jessica Oconnell,Science,Lecturer,Macewan University
+386,Jerome Hoffman,Business,Lecturer,University of Calgary
+387,Kevin Ortiz,Business,Asspciate Professor,NAIT
+388,Laura Goodwin,Business,Lecturer,Macewan University
+389,Patricia Lopez,Arts,Visiting Professor,Macewan University
+390,Lisa Cherry DVM,Arts,Professor,University of Calgary
+391,Loretta Tyler,Science,Professor,University of Alberta
+392,Craig Romero,Business,Lecturer,University of Alberta
+393,Dr. Justin Coleman,Science,Professor,University of Alberta
+394,George Kelly,Arts,Professor,NAIT
+395,Christopher Young,Science,Asspciate Professor,University of Calgary
+396,Gary Hernandez,Business,Lecturer,NAIT
+397,Brittany Reese,Science,Lecturer,Macewan University
+398,Kiara Bird,Business,Visiting Professor,Macewan University
+399,John Gonzales,Arts,Lecturer,University of Alberta
+400,Dr. Susan Morgan,Arts,Professor,University of Calgary
+401,Nicole Gordon,Business,Lecturer,University of Calgary
+402,Monique Hancock,Science,Lecturer,NAIT
+403,Elizabeth Brown,Arts,Lecturer,University of Alberta
+404,Deborah Holland,Business,Asspciate Professor,University of Alberta
+405,Cynthia Robinson,Business,Professor,NAIT
+406,Patrick Scott,Science,Asspciate Professor,Macewan University
+407,Brenda Johnson,Business,Professor,University of Alberta
+408,Donna Turner,Business,Visiting Professor,University of Alberta
+409,Cheryl Wagner,Arts,Professor,University of Alberta
+410,Jennifer Leblanc,Science,Asspciate Professor,Macewan University
+411,Robert Day,Science,Visiting Professor,NAIT
+412,Jennifer Curry,Arts,Asspciate Professor,University of Alberta
+413,Alexander Taylor,Science,Asspciate Professor,Macewan University
+414,Lauren Ferguson,Science,Professor,University of Calgary
+415,John Patterson,Science,Professor,NAIT
+416,Kimberly Hall,Arts,Professor,NAIT
+417,Adrian Thompson DDS,Arts,Professor,University of Alberta
+418,Amanda Tucker,Science,Professor,NAIT
+419,Erin Mitchell,Business,Visiting Professor,NAIT
+420,Michael Knight,Business,Professor,Macewan University
+421,Kathy Lewis,Business,Visiting Professor,University of Calgary
+422,Jessica Ward,Science,Professor,University of Alberta
+423,Christopher Ortega,Science,Asspciate Professor,University of Alberta
+424,Timothy Thomas,Arts,Asspciate Professor,University of Calgary
+425,Jonathan Green,Science,Professor,University of Calgary
+426,Amanda Dunn,Business,Asspciate Professor,NAIT
+427,Vanessa Long,Business,Professor,University of Alberta
+428,Sheila Williams,Business,Asspciate Professor,NAIT
+429,William Ramsey,Business,Asspciate Professor,University of Calgary
+430,Andrew Schmidt,Science,Visiting Professor,University of Alberta
+431,Meghan Murray,Arts,Visiting Professor,University of Calgary
+432,Barry Patel,Science,Lecturer,NAIT
+433,Brittany Gomez,Business,Lecturer,University of Calgary
+434,Joseph Johnston,Business,Lecturer,NAIT
+435,Lisa Bates,Business,Professor,University of Calgary
+436,Joseph Lyons,Arts,Lecturer,NAIT
+437,Chelsea Mann,Science,Professor,University of Alberta
+438,Brittany Jenkins,Arts,Asspciate Professor,NAIT
+439,Mary Schmitt,Science,Professor,Macewan University
+440,Luis Harrison,Business,Lecturer,University of Calgary
+441,Nathaniel Shelton,Business,Professor,University of Alberta
+442,Ann Garza,Arts,Asspciate Professor,Macewan University
+443,Donald Robinson,Arts,Professor,NAIT
+444,Crystal Allen,Business,Professor,Macewan University
+445,Jennifer Dixon,Business,Visiting Professor,Macewan University
+446,Taylor Gutierrez,Business,Visiting Professor,Macewan University
+447,Karen Gill,Arts,Professor,University of Calgary
+448,Zachary Meyer,Science,Asspciate Professor,University of Alberta
+449,Ruth Thompson,Business,Asspciate Professor,University of Calgary
+450,Charles Johnson,Arts,Lecturer,University of Alberta
+451,Daniel Little,Arts,Lecturer,University of Calgary
+452,Lauren Hardy,Arts,Lecturer,NAIT
+453,Kathryn Taylor,Science,Visiting Professor,NAIT
+454,Debra Mitchell,Arts,Visiting Professor,University of Alberta
+455,Veronica Peters,Science,Lecturer,University of Alberta
+456,Marcus Morrison,Business,Visiting Professor,University of Alberta
+457,Bethany Reid,Arts,Asspciate Professor,NAIT
+458,Destiny Wright,Science,Visiting Professor,Macewan University
+459,Christopher Taylor,Business,Visiting Professor,University of Calgary
+460,Tina Peters,Science,Visiting Professor,University of Alberta
+461,William Shepard,Science,Professor,University of Alberta
+462,Jack Navarro,Business,Lecturer,University of Calgary
+463,Savannah Bernard,Arts,Lecturer,Macewan University
+464,John Hunt,Science,Asspciate Professor,NAIT
+465,Melissa Smith,Science,Asspciate Professor,Macewan University
+466,Christopher Stevens,Business,Asspciate Professor,Macewan University
+467,Sharon Daniel,Arts,Professor,Macewan University
+468,Joseph Marshall,Business,Asspciate Professor,NAIT
+469,Travis Haas,Business,Asspciate Professor,NAIT
+470,Jeremy Cook DDS,Business,Asspciate Professor,NAIT
+471,Gregory Griffin,Arts,Lecturer,Macewan University
+472,Loretta Morris,Science,Asspciate Professor,Macewan University
+473,Emily Anderson,Business,Visiting Professor,NAIT
+474,Timothy Rodgers,Science,Lecturer,University of Calgary
+475,Pamela Bradshaw,Science,Lecturer,University of Alberta
+476,Benjamin Griffin,Business,Asspciate Professor,NAIT
+477,Timothy Gonzalez,Arts,Lecturer,University of Alberta
+478,Kenneth Ortiz,Arts,Visiting Professor,Macewan University
+479,Seth Robinson,Science,Professor,NAIT
+480,Chad Baker,Science,Visiting Professor,NAIT
+481,Shawn Gibson,Science,Visiting Professor,Macewan University
+482,Joanna Lopez,Business,Visiting Professor,University of Alberta
+483,Amy Deleon,Business,Asspciate Professor,University of Calgary
+484,Daniel Jordan,Arts,Lecturer,NAIT
+485,Kathryn Brooks,Arts,Visiting Professor,University of Alberta
+486,Nicole Deleon,Business,Asspciate Professor,University of Calgary
+487,Samantha Clark,Business,Lecturer,University of Alberta
+488,Jennifer Smith,Arts,Asspciate Professor,University of Alberta
+489,Terry Fowler,Science,Professor,University of Alberta
+490,Lisa Rose,Arts,Asspciate Professor,Macewan University
+491,Tanya Simmons,Arts,Visiting Professor,University of Alberta
+492,Alex Brown,Business,Lecturer,NAIT
+493,Bryce White,Arts,Asspciate Professor,Macewan University
+494,Trevor Perez,Arts,Lecturer,NAIT
+495,Amanda Watson DDS,Science,Asspciate Professor,Macewan University
+496,Maurice Wright,Arts,Lecturer,University of Calgary
+497,Misty Wallace,Business,Lecturer,NAIT
+498,Brian Stanley,Science,Visiting Professor,Macewan University
+499,Martin Simmons,Business,Visiting Professor,NAIT
+500,Jennifer Duffy,Science,Visiting Professor,NAIT
+501,William Delgado,Business,Professor,University of Calgary
+502,Andrew Clarke,Science,Professor,NAIT
+503,Kimberly Johnson,Business,Lecturer,Macewan University
+504,Brenda Barnett,Arts,Asspciate Professor,University of Calgary
+505,James Walter,Business,Lecturer,University of Alberta
+506,Richard Lane,Arts,Professor,University of Calgary
+507,Timothy Leblanc,Arts,Asspciate Professor,University of Calgary
+508,Andrea Duncan,Science,Visiting Professor,Macewan University
+509,Ruben Cook,Science,Lecturer,NAIT
+510,Michael Dickerson,Science,Lecturer,University of Alberta
+511,Kenneth Jennings,Arts,Professor,University of Alberta
+512,Colin Singh,Science,Lecturer,Macewan University
+513,Joseph Leonard,Science,Professor,NAIT
+514,David Chapman,Science,Asspciate Professor,Macewan University
+515,Victoria Smith,Science,Visiting Professor,University of Alberta
+516,Tiffany Cooper,Business,Professor,Macewan University
+517,Matthew Briggs,Business,Visiting Professor,University of Alberta
+518,Donna Serrano,Science,Asspciate Professor,NAIT
+519,David Navarro,Business,Lecturer,University of Calgary
+520,Michael Fields,Arts,Lecturer,NAIT
+521,Erica Dunn,Science,Asspciate Professor,NAIT
+522,Desiree Allen,Business,Visiting Professor,University of Alberta
+523,Sandra Davis,Arts,Lecturer,NAIT
+524,Lisa Foster,Science,Asspciate Professor,NAIT
+525,Julia Clark,Business,Asspciate Professor,Macewan University
+526,Katherine Kane,Arts,Asspciate Professor,NAIT
+527,Tara Cox,Science,Asspciate Professor,NAIT
+528,Justin Schwartz,Arts,Visiting Professor,University of Alberta
+529,Adrian Chambers,Arts,Professor,Macewan University
+530,Dennis Robinson,Business,Lecturer,Macewan University
+531,Justin Buck,Business,Asspciate Professor,NAIT
+532,Mathew Graves,Science,Asspciate Professor,University of Alberta
+533,Adam Richmond,Arts,Asspciate Professor,NAIT
+534,Wendy Smith,Business,Asspciate Professor,University of Calgary
+535,William Glenn,Science,Professor,NAIT
+536,Alexander Combs,Science,Asspciate Professor,University of Calgary
+537,Jamie Wells,Business,Lecturer,University of Calgary
+538,Cassidy Young,Business,Visiting Professor,NAIT
+539,Joshua Rogers,Arts,Visiting Professor,University of Calgary
+540,Todd Flores,Science,Lecturer,University of Calgary
+541,Laura Williams,Business,Professor,NAIT
+542,Steve Cooke,Arts,Professor,Macewan University
+543,Travis Miller,Arts,Visiting Professor,University of Alberta
+544,Jacob Coleman,Business,Asspciate Professor,NAIT
+545,Melissa Snyder,Science,Visiting Professor,University of Calgary
+546,Patricia Lee,Science,Lecturer,University of Alberta
+547,Joseph Miller,Business,Visiting Professor,University of Calgary
+548,Edward Weaver,Science,Professor,University of Calgary
+549,Crystal Torres,Business,Lecturer,University of Calgary
+550,Heather Hayes,Arts,Lecturer,University of Alberta
+551,Catherine Carter,Business,Asspciate Professor,Macewan University
+552,Christopher Porter,Business,Lecturer,University of Alberta
+553,Marie Martinez,Business,Visiting Professor,Macewan University
+554,Lisa Allen,Business,Asspciate Professor,University of Calgary
+555,Kenneth Wright,Business,Visiting Professor,Macewan University
+556,Sarah Green,Arts,Asspciate Professor,Macewan University
+557,Suzanne Hines,Business,Visiting Professor,University of Calgary
+558,Carolyn Price,Business,Lecturer,University of Alberta
+559,Laurie Freeman,Business,Visiting Professor,NAIT
+560,Adrienne Curry,Business,Lecturer,NAIT
+561,David Wagner,Arts,Asspciate Professor,University of Calgary
+562,Cory Mcdonald,Arts,Asspciate Professor,University of Calgary
+563,Emily Snyder DVM,Science,Asspciate Professor,NAIT
+564,Margaret Moss,Business,Visiting Professor,University of Calgary
+565,Olivia Butler,Arts,Professor,University of Alberta
+566,Rachel White,Arts,Visiting Professor,University of Alberta
+567,Scott Finley,Science,Professor,University of Alberta
+568,Joan Gardner,Arts,Visiting Professor,NAIT
+569,Peter Thomas,Arts,Visiting Professor,NAIT
+570,Hannah Ferrell,Arts,Asspciate Professor,NAIT
+571,Elizabeth Villegas,Arts,Asspciate Professor,NAIT
+572,Joshua Fitzgerald,Arts,Professor,University of Alberta
+573,Luis Vargas,Arts,Professor,University of Alberta
+574,Dakota Friedman,Business,Lecturer,NAIT
+575,Samantha Wong,Business,Asspciate Professor,Macewan University
+576,Kimberly Wood,Arts,Professor,Macewan University
+577,Brandon Alexander,Arts,Lecturer,Macewan University
+578,Matthew Spencer,Arts,Professor,NAIT
+579,Marcus Collins,Business,Visiting Professor,University of Calgary
+580,Joshua Reilly,Science,Professor,NAIT
+581,William Lee,Science,Visiting Professor,Macewan University
+582,Katherine Nelson,Business,Professor,University of Alberta
+583,Leslie Mclaughlin,Science,Professor,Macewan University
+584,Kelly Johnson,Business,Professor,University of Calgary
+585,David Collins,Business,Professor,University of Calgary
+586,Thomas Pacheco,Arts,Visiting Professor,University of Alberta
+587,Jamie Lewis,Arts,Visiting Professor,NAIT
+588,Charles Murphy,Business,Asspciate Professor,University of Alberta
+589,Priscilla Nelson,Arts,Visiting Professor,Macewan University
+590,Deborah Young,Arts,Asspciate Professor,University of Calgary
+591,Destiny Smith,Science,Professor,University of Alberta
+592,Jodi Cole,Business,Visiting Professor,University of Calgary
+593,Marcus Morris,Science,Professor,University of Calgary
+594,Mrs. Karen Oconnor,Science,Lecturer,Macewan University
+595,Aaron Rodriguez,Science,Visiting Professor,Macewan University
+596,Amanda Crosby,Science,Professor,University of Calgary
+597,Jordan Ramsey,Science,Professor,University of Calgary
+598,Victoria Lee,Arts,Lecturer,University of Alberta
+599,Caleb Gonzales,Arts,Asspciate Professor,Macewan University
+600,Edward Ortiz,Arts,Lecturer,University of Alberta
+601,Mrs. Darlene Smith,Science,Asspciate Professor,University of Calgary
+602,Theresa Hamilton,Business,Asspciate Professor,Macewan University
+603,Benjamin Salas,Science,Professor,Macewan University
+604,Melissa Jones,Business,Asspciate Professor,NAIT
+605,William Rodriguez,Science,Asspciate Professor,NAIT
+606,Matthew Barron,Science,Asspciate Professor,Macewan University
+607,Robert Gilbert,Science,Professor,Macewan University
+608,Cameron Mcdonald,Business,Visiting Professor,NAIT
+609,April Casey,Business,Asspciate Professor,NAIT
+610,Caitlin Martinez,Business,Asspciate Professor,NAIT
+611,Tina Johnson,Arts,Asspciate Professor,University of Calgary
+612,Lisa Strickland,Business,Asspciate Professor,University of Alberta
+613,John Hernandez,Science,Asspciate Professor,University of Calgary
+614,Brittany Davis,Business,Visiting Professor,NAIT
+615,Francisco Shaw,Business,Visiting Professor,University of Alberta
+616,Jason Tran,Arts,Lecturer,University of Calgary
+617,Sara Smith,Science,Lecturer,University of Alberta
+618,Alyssa Payne,Business,Visiting Professor,NAIT
+619,Samantha Perry,Science,Visiting Professor,University of Calgary
+620,Bobby Watkins,Science,Asspciate Professor,Macewan University
+621,Peter Jimenez,Arts,Asspciate Professor,Macewan University
+622,Bobby Taylor,Arts,Professor,Macewan University
+623,Brian Curtis,Business,Professor,University of Alberta
+624,Joy Richardson,Business,Asspciate Professor,University of Calgary
+625,Cheryl Mccarthy,Arts,Asspciate Professor,University of Calgary
+626,Keith Ellis,Arts,Professor,NAIT
+627,Lori Torres,Science,Lecturer,NAIT
+628,Robin George,Science,Asspciate Professor,University of Calgary
+629,Chelsea Wiley,Science,Asspciate Professor,University of Alberta
+630,James Cain,Business,Visiting Professor,University of Calgary
+631,Kathryn Nelson,Science,Asspciate Professor,Macewan University
+632,Jose Kelley,Science,Lecturer,Macewan University
+633,Anna Nash,Arts,Professor,University of Alberta
+634,Melanie Watkins,Science,Lecturer,University of Alberta
+635,Bobby Stewart,Business,Asspciate Professor,University of Alberta
+636,Brenda Wolf,Business,Visiting Professor,NAIT
+637,Eric Coleman,Business,Professor,University of Alberta
+638,Jesse Sullivan,Science,Professor,University of Alberta
+639,Danny Carter,Business,Lecturer,Macewan University
+640,Anthony Rocha,Business,Lecturer,University of Alberta
+641,Angela Mcdaniel,Business,Asspciate Professor,University of Calgary
+642,John White,Science,Lecturer,University of Calgary
+643,Linda Davis,Arts,Professor,University of Calgary
+644,Jill Johnson,Science,Lecturer,NAIT
+645,Katherine Hall,Arts,Asspciate Professor,Macewan University
+646,Denise Gonzalez,Arts,Lecturer,NAIT
+647,Melanie Fuller,Science,Visiting Professor,University of Calgary
+648,Barbara Vaughn,Business,Lecturer,University of Alberta
+649,Stephanie Rogers,Business,Visiting Professor,University of Calgary
+650,Melissa Austin,Science,Lecturer,University of Alberta
+651,Jessica Young,Business,Professor,University of Alberta
+652,Megan Howard,Science,Professor,University of Alberta
+653,Christopher Chen,Science,Professor,University of Alberta
+654,Stephen King,Science,Lecturer,Macewan University
+655,Larry Smith,Business,Visiting Professor,University of Calgary
+656,Eric Mays,Science,Lecturer,University of Calgary
+657,Andrea Zhang,Business,Professor,University of Alberta
+658,Nicholas Kelley,Business,Visiting Professor,Macewan University
+659,Gabriela Burton,Science,Lecturer,University of Alberta
+660,Robin Byrd,Business,Lecturer,NAIT
+661,Laurie Malone,Business,Asspciate Professor,University of Alberta
+662,Ryan Lewis,Science,Visiting Professor,Macewan University
+663,Ray Ashley,Science,Visiting Professor,University of Calgary
+664,Lori Hill,Arts,Lecturer,Macewan University
+665,Jerry Carrillo,Business,Lecturer,University of Calgary
+666,Dr. Lisa Grant,Science,Professor,University of Alberta
+667,Miss Teresa Meyers,Science,Visiting Professor,University of Alberta
+668,Patricia Ibarra,Business,Asspciate Professor,University of Alberta
+669,Donna Wright,Science,Asspciate Professor,Macewan University
+670,Paul Castillo,Arts,Visiting Professor,Macewan University
+671,Gregory May,Business,Lecturer,Macewan University
+672,Timothy Wright,Science,Professor,University of Calgary
+673,Jonathan Waters,Science,Professor,University of Alberta
+674,Jessica Sandoval,Science,Lecturer,University of Calgary
+675,Samantha Turner,Science,Asspciate Professor,Macewan University
+676,Natasha Bryan,Business,Visiting Professor,Macewan University
+677,Max Reyes,Arts,Lecturer,Macewan University
+678,Teresa Thomas,Business,Asspciate Professor,University of Calgary
+679,Karl Wilcox,Arts,Lecturer,NAIT
+680,Rebekah Adkins,Arts,Lecturer,University of Alberta
+681,Brian Mcdonald,Business,Visiting Professor,University of Alberta
+682,Kevin Dyer,Business,Asspciate Professor,Macewan University
+683,Daniel Morris,Science,Asspciate Professor,NAIT
+684,Gregory Haney,Arts,Visiting Professor,University of Alberta
+685,Jeffrey Moore,Business,Asspciate Professor,NAIT
+686,Rhonda Knight,Science,Lecturer,NAIT
+687,Michele Garcia,Science,Lecturer,University of Calgary
+688,Grace Gibson,Arts,Lecturer,University of Calgary
+689,Denise Sims,Science,Visiting Professor,University of Alberta
+690,Elijah Giles,Arts,Visiting Professor,University of Calgary
+691,Frank Case,Science,Asspciate Professor,Macewan University
+692,Christine Hamilton,Business,Professor,Macewan University
+693,Bruce Eaton,Arts,Visiting Professor,Macewan University
+694,Jennifer Nelson,Business,Lecturer,University of Alberta
+695,Tiffany Hawkins,Science,Visiting Professor,NAIT
+696,Kathryn Gonzalez,Science,Visiting Professor,University of Alberta
+697,Danny Lewis,Arts,Professor,University of Alberta
+698,Peter Palmer,Science,Professor,University of Alberta
+699,Corey Baldwin,Business,Lecturer,University of Calgary
+700,Craig Dixon,Arts,Asspciate Professor,Macewan University
+701,Virginia Jones,Science,Professor,NAIT
+702,Virginia Estrada,Business,Visiting Professor,University of Calgary
+703,Ashley Hamilton,Business,Visiting Professor,Macewan University
+704,Amanda Wright,Business,Professor,University of Alberta
+705,Victoria Hubbard,Business,Lecturer,University of Alberta
+706,Emily Macias,Science,Visiting Professor,University of Alberta
+707,Kimberly Price,Arts,Visiting Professor,University of Calgary
+708,Carla Barrett,Business,Asspciate Professor,University of Alberta
+709,John Walsh,Science,Lecturer,University of Calgary
+710,Melissa Thompson,Arts,Asspciate Professor,University of Alberta
+711,Madison Ryan,Arts,Lecturer,University of Calgary
+712,Christina Spence,Science,Professor,Macewan University
+713,Francisco Martinez,Arts,Lecturer,NAIT
+714,Juan Carpenter,Business,Visiting Professor,Macewan University
+715,Destiny Wall,Arts,Asspciate Professor,University of Alberta
+716,Elizabeth Burgess,Business,Asspciate Professor,NAIT
+717,Philip Hall,Arts,Visiting Professor,University of Alberta
+718,Rachel King,Science,Visiting Professor,University of Alberta
+719,Shannon Howe,Science,Visiting Professor,University of Alberta
+720,Dana Jones MD,Science,Visiting Professor,NAIT
+721,Nathan Garcia,Business,Professor,University of Alberta
+722,Ashley Davis,Business,Professor,Macewan University
+723,Charles Robinson,Business,Lecturer,University of Calgary
+724,Taylor Larsen,Business,Professor,University of Calgary
+725,James Powers,Business,Lecturer,Macewan University
+726,Holly Ryan,Business,Professor,NAIT
+727,Tyler Moore,Arts,Professor,University of Alberta
+728,Maria Miller,Arts,Visiting Professor,Macewan University
+729,Nicole Kelly,Business,Lecturer,University of Alberta
+730,Matthew Baker,Business,Visiting Professor,Macewan University
+731,Samantha Bell,Business,Visiting Professor,NAIT
+732,Rachel Wells,Science,Asspciate Professor,University of Calgary
+733,Kelly Wood,Arts,Asspciate Professor,University of Alberta
+734,Michael Jones,Business,Visiting Professor,Macewan University
+735,Brittney Armstrong,Science,Professor,Macewan University
+736,Steven Gill,Arts,Asspciate Professor,University of Calgary
+737,Carla Pitts,Business,Visiting Professor,Macewan University
+738,Dennis Thompson,Arts,Asspciate Professor,NAIT
+739,Gregory Phillips,Arts,Asspciate Professor,University of Calgary
+740,Meghan Holmes,Arts,Asspciate Professor,NAIT
+741,Tracie Miranda,Science,Lecturer,University of Alberta
+742,Jermaine Brown,Business,Professor,NAIT
+743,Andrea Lawson,Business,Professor,University of Calgary
+744,Joseph Alexander,Science,Visiting Professor,Macewan University
+745,Kristi Lucas,Business,Visiting Professor,NAIT
+746,Kelly Porter,Arts,Visiting Professor,Macewan University
+747,Patty Osborne,Science,Asspciate Professor,University of Calgary
+748,Aaron Curtis,Arts,Lecturer,University of Alberta
+749,Renee Sloan MD,Business,Visiting Professor,NAIT
+750,Michael Hernandez,Science,Visiting Professor,Macewan University
+751,Carmen Hawkins,Science,Lecturer,University of Calgary
+752,Courtney Peterson,Arts,Professor,University of Alberta
+753,Nicholas Guerrero,Arts,Asspciate Professor,NAIT
+754,William Warner,Business,Lecturer,NAIT
+755,Aaron Garcia,Arts,Lecturer,University of Calgary
+756,Sandra Baldwin,Arts,Visiting Professor,University of Alberta
+757,Ricky Vargas,Arts,Visiting Professor,University of Calgary
+758,Michael Barnes,Science,Lecturer,Macewan University
+759,Sydney Keith,Arts,Visiting Professor,University of Calgary
+760,Carol Drake,Science,Visiting Professor,University of Alberta
+761,Rebecca Klein,Science,Lecturer,Macewan University
+762,Henry Fleming,Arts,Visiting Professor,Macewan University
+763,Desiree Carter,Science,Lecturer,University of Calgary
+764,Larry Flores,Science,Professor,NAIT
+765,Kimberly Torres,Science,Asspciate Professor,University of Calgary
+766,Emily Casey,Science,Asspciate Professor,NAIT
+767,Melinda Ramirez,Business,Asspciate Professor,University of Calgary
+768,Megan Rosales,Arts,Visiting Professor,Macewan University
+769,Christopher Beard,Science,Visiting Professor,University of Calgary
+770,Tommy Mata,Arts,Asspciate Professor,NAIT
+771,Kenneth Frank,Science,Lecturer,NAIT
+772,Samantha Keith,Business,Lecturer,NAIT
+773,Brandi Hunter,Business,Professor,University of Alberta
+774,Brooke Scott,Business,Visiting Professor,University of Calgary
+775,Christopher Conway,Science,Asspciate Professor,University of Calgary
+776,Michael Fleming,Business,Asspciate Professor,University of Calgary
+777,Jamie Johnson,Business,Asspciate Professor,University of Alberta
+778,Sara Reed,Science,Lecturer,Macewan University
+779,Karen Hill,Science,Lecturer,NAIT
+780,Joseph Dixon,Science,Asspciate Professor,University of Alberta
+781,Erica Dunlap,Business,Visiting Professor,University of Calgary
+782,Samantha Gomez,Arts,Lecturer,NAIT
+783,William Brown,Arts,Lecturer,Macewan University
+784,Ronald Mitchell MD,Arts,Lecturer,NAIT
+785,Sarah Maddox,Business,Visiting Professor,Macewan University
+786,Roger Brown Jr.,Science,Lecturer,Macewan University
+787,Jonathan Hutchinson,Arts,Asspciate Professor,NAIT
+788,Elizabeth Greene,Arts,Asspciate Professor,University of Alberta
+789,Bradley Osborne,Business,Visiting Professor,University of Alberta
+790,Amy Parrish,Business,Asspciate Professor,University of Alberta
+791,Sierra Martinez,Science,Asspciate Professor,University of Alberta
+792,Brandy Miller,Arts,Professor,NAIT
+793,Julia Armstrong,Business,Professor,University of Alberta
+794,Jill Mcconnell,Business,Asspciate Professor,Macewan University
+795,Tamara Andersen,Business,Professor,NAIT
+796,Dawn Lopez,Science,Asspciate Professor,NAIT
+797,Susan Gomez,Science,Asspciate Professor,NAIT
+798,Eric Castro,Business,Lecturer,NAIT
+799,Christina Ramirez,Arts,Professor,NAIT
+800,Jennifer Jones,Science,Professor,University of Calgary
+801,Kevin Mathis,Business,Visiting Professor,NAIT
+802,Jason Gray,Arts,Professor,Macewan University
+803,Alexandra Ward,Arts,Lecturer,University of Calgary
+804,John Wyatt,Business,Visiting Professor,University of Alberta
+805,Tyler Delgado,Science,Visiting Professor,NAIT
+806,Charles Smith,Science,Professor,NAIT
+807,Emily Smith,Science,Visiting Professor,University of Calgary
+808,Chelsea Mccarthy,Business,Lecturer,NAIT
+809,Manuel Nolan,Science,Professor,Macewan University
+810,Isaac Coleman,Science,Professor,University of Alberta
+811,Molly Mills,Arts,Asspciate Professor,Macewan University
+812,Jill Wilkerson,Arts,Visiting Professor,NAIT
+813,Terri Watson,Business,Visiting Professor,University of Calgary
+814,Mary Kelley,Science,Lecturer,University of Alberta
+815,Thomas Henry,Arts,Visiting Professor,Macewan University
+816,Christopher Mclaughlin,Arts,Visiting Professor,NAIT
+817,Elizabeth Fisher,Science,Lecturer,University of Calgary
+818,Jill Perez,Business,Professor,University of Calgary
+819,Kayla Rodriguez,Arts,Lecturer,Macewan University
+820,Sandra Tran,Business,Visiting Professor,University of Calgary
+821,Rose Dougherty,Arts,Professor,Macewan University
+822,Jessica Holmes,Science,Visiting Professor,University of Alberta
+823,Pamela Perry,Science,Lecturer,NAIT
+824,Christine Gonzalez,Science,Lecturer,Macewan University
+825,Joe Waters,Business,Professor,Macewan University
+826,Jennifer Campbell DVM,Business,Asspciate Professor,University of Alberta
+827,Elaine Patel,Science,Asspciate Professor,University of Calgary
+828,Carolyn Torres,Business,Visiting Professor,University of Calgary
+829,Lori Black,Science,Lecturer,University of Calgary
+830,James Mitchell,Science,Professor,Macewan University
+831,Timothy Wade,Arts,Visiting Professor,University of Alberta
+832,Sandra Garrett,Science,Visiting Professor,Macewan University
+833,Brandon Livingston,Arts,Visiting Professor,Macewan University
+834,Gina Booker,Arts,Visiting Professor,Macewan University
+835,Christine Richard,Business,Lecturer,University of Alberta
+836,Sergio Watkins,Arts,Lecturer,Macewan University
+837,Gregory Jimenez,Arts,Professor,University of Alberta
+838,Brian Ward,Arts,Lecturer,University of Calgary
+839,Glenn Cochran,Business,Professor,Macewan University
+840,David Ramirez,Science,Asspciate Professor,NAIT
+841,Jeremy Zimmerman,Arts,Asspciate Professor,University of Alberta
+842,Mr. Hector Young,Science,Asspciate Professor,NAIT
+843,Kenneth Chase,Business,Professor,University of Calgary
+844,Mark Washington,Arts,Professor,University of Calgary
+845,Steven Foley,Science,Lecturer,University of Calgary
+846,Terrence Stewart,Business,Lecturer,University of Alberta
+847,Jesse Nguyen,Science,Asspciate Professor,University of Alberta
+848,Robert Hill,Science,Asspciate Professor,Macewan University
+849,Patrick Snyder,Business,Visiting Professor,NAIT
+850,Phyllis Green,Arts,Asspciate Professor,NAIT
+851,Lydia Lewis,Arts,Visiting Professor,University of Calgary
+852,Andrew Snow,Arts,Visiting Professor,Macewan University
+853,Valerie Sandoval,Science,Visiting Professor,NAIT
+854,Theresa Bradley,Arts,Professor,University of Calgary
+855,Michael Alvarez,Science,Asspciate Professor,Macewan University
+856,Max Norton,Science,Visiting Professor,NAIT
+857,Nathan Smith,Business,Asspciate Professor,Macewan University
+858,Mark Lee,Arts,Visiting Professor,University of Alberta
+859,Charles Hill,Business,Professor,University of Alberta
+860,Lisa Franklin,Science,Asspciate Professor,University of Alberta
+861,Laura Fitzgerald DVM,Arts,Lecturer,NAIT
+862,Catherine Wilson,Arts,Professor,University of Calgary
+863,Taylor Walker,Arts,Asspciate Professor,Macewan University
+864,Nicole Lewis,Arts,Visiting Professor,University of Alberta
+865,Katherine Stanley,Arts,Asspciate Professor,University of Alberta
+866,Sarah Henry,Business,Visiting Professor,University of Calgary
+867,Jonathan Phillips,Business,Visiting Professor,Macewan University
+868,Christine Black,Science,Lecturer,NAIT
+869,Sarah Jenkins,Science,Professor,Macewan University
+870,Jennifer Cummings,Arts,Visiting Professor,NAIT
+871,Christopher Mason,Science,Professor,University of Calgary
+872,Mr. Richard Prince,Business,Visiting Professor,NAIT
+873,Nathan Garrett,Business,Lecturer,University of Calgary
+874,James Sanchez,Business,Visiting Professor,NAIT
+875,Martin Buchanan,Science,Visiting Professor,NAIT
+876,Valerie Rich,Arts,Lecturer,University of Calgary
+877,Thomas Campos,Science,Lecturer,University of Alberta
+878,Nicole Glass,Business,Visiting Professor,Macewan University
+879,Melody Obrien,Arts,Lecturer,University of Calgary
+880,Henry Cooper,Business,Asspciate Professor,NAIT
+881,Drew Morris,Science,Asspciate Professor,University of Alberta
+882,Kevin Kelly,Science,Professor,University of Alberta
+883,Stephanie Lee,Business,Lecturer,University of Calgary
+884,Alexis Hodge,Arts,Visiting Professor,NAIT
+885,Allen Anderson,Business,Visiting Professor,Macewan University
+886,Mark Ellison,Arts,Lecturer,University of Alberta
+887,Jason Quinn,Business,Visiting Professor,University of Calgary
+888,Matthew Hood,Arts,Lecturer,University of Calgary
+889,Robert Good,Business,Visiting Professor,Macewan University
+890,Thomas Thomas,Science,Asspciate Professor,NAIT
+891,Jennifer Lee,Science,Asspciate Professor,University of Calgary
+892,Danielle Sanchez,Arts,Visiting Professor,NAIT
+893,Barbara Smith,Arts,Asspciate Professor,Macewan University
+894,Paul Gomez,Arts,Visiting Professor,University of Alberta
+895,Stephen Potter,Business,Professor,Macewan University
+896,Barry Campbell,Arts,Visiting Professor,University of Calgary
+897,Jorge Robertson,Science,Asspciate Professor,NAIT
+898,Holly Mejia,Arts,Visiting Professor,NAIT
+899,Eric Brown,Arts,Visiting Professor,Macewan University
+900,Edward Gregory,Science,Visiting Professor,University of Calgary
+901,Dennis Montgomery,Business,Professor,NAIT
+902,Stephanie Johnson,Science,Visiting Professor,NAIT
+903,Emily Mosley,Business,Professor,University of Alberta
+904,Emily Rodriguez,Business,Professor,NAIT
+905,James Farley,Science,Professor,Macewan University
+906,Christopher Thomas,Science,Lecturer,University of Alberta
+907,Kevin Jensen,Arts,Professor,NAIT
+908,Nicholas Schneider,Business,Professor,NAIT
+909,Gloria Gordon,Business,Asspciate Professor,NAIT
+910,Joe Garcia,Business,Professor,NAIT
+911,Brad Howe,Arts,Asspciate Professor,University of Alberta
+912,Tracy Adams,Arts,Professor,NAIT
+913,Katie Willis,Business,Visiting Professor,Macewan University
+914,Lauren Turner,Business,Asspciate Professor,University of Calgary
+915,Bethany Ramirez,Arts,Lecturer,University of Calgary
+916,Edward Thomas,Arts,Lecturer,University of Calgary
+917,Jonathan Carey,Arts,Professor,NAIT
+918,Alexandra Taylor,Science,Asspciate Professor,University of Alberta
+919,Michael Patterson,Business,Professor,University of Calgary
+920,Darren Yates,Science,Asspciate Professor,University of Calgary
+921,Carolyn Barajas,Arts,Visiting Professor,University of Calgary
+922,Stephanie Wilson,Business,Professor,University of Calgary
+923,Cheryl Williams,Science,Professor,University of Alberta
+924,Justin Flynn,Business,Asspciate Professor,University of Alberta
+925,Jenna Jones,Business,Asspciate Professor,Macewan University
+926,Kara Wright,Science,Professor,Macewan University
+927,Michelle James,Arts,Asspciate Professor,University of Alberta
+928,Kevin Delacruz,Arts,Asspciate Professor,University of Calgary
+929,Ricky Murphy,Science,Asspciate Professor,NAIT
+930,Jeanette Thomas,Business,Lecturer,Macewan University
+931,Tyler Cameron,Arts,Lecturer,NAIT
+932,Daniel Winters,Business,Lecturer,NAIT
+933,Kimberly Raymond,Arts,Asspciate Professor,University of Alberta
+934,Mark Thomas,Arts,Asspciate Professor,Macewan University
+935,Jesus Warren,Science,Professor,Macewan University
+936,Renee Brady,Business,Professor,NAIT
+937,Angela Evans,Science,Lecturer,University of Calgary
+938,David Hanson,Science,Asspciate Professor,University of Alberta
+939,Heather Parker,Science,Visiting Professor,University of Calgary
+940,Jamie Payne,Business,Professor,NAIT
+941,Alexander Cameron,Business,Visiting Professor,University of Alberta
+942,Stephanie Robinson,Arts,Lecturer,University of Alberta
+943,Martha Anderson,Science,Professor,NAIT
+944,Mr. David Blackwell,Arts,Professor,University of Alberta
+945,Raymond Anderson,Arts,Professor,Macewan University
+946,Kristina Gardner,Science,Asspciate Professor,Macewan University
+947,Dawn Thomas,Science,Professor,Macewan University
+948,Tiffany Black,Science,Lecturer,University of Alberta
+949,Adam Martinez,Science,Visiting Professor,Macewan University
+950,Samuel Luna,Arts,Visiting Professor,Macewan University
+951,Kenneth Stevens,Arts,Professor,NAIT
+952,Michael Castillo DDS,Arts,Professor,University of Calgary
+953,Mrs. Melody Martinez,Science,Lecturer,University of Calgary
+954,Thomas Jacobson,Arts,Professor,University of Alberta
+955,Christian Evans,Science,Lecturer,University of Calgary
+956,Hannah Hampton,Business,Professor,Macewan University
+957,Jessica Morrow,Business,Visiting Professor,Macewan University
+958,Ana Morales,Arts,Visiting Professor,Macewan University
+959,Kristina West,Arts,Lecturer,University of Calgary
+960,Kenneth West,Science,Asspciate Professor,NAIT
+961,Richard Williams,Business,Visiting Professor,University of Calgary
+962,Timothy Klein,Business,Asspciate Professor,NAIT
+963,Tara Rios,Science,Professor,University of Alberta
+964,Janet Stark,Arts,Professor,NAIT
+965,Monica Padilla,Arts,Visiting Professor,NAIT
+966,Michael Palmer,Business,Professor,University of Calgary
+967,Patricia Fox,Business,Visiting Professor,Macewan University
+968,Alison Rodriguez,Business,Visiting Professor,NAIT
+969,James David,Arts,Asspciate Professor,NAIT
+970,Michael Rowe,Business,Professor,Macewan University
+971,David Benson,Science,Asspciate Professor,NAIT
+972,Jordan Curtis,Arts,Lecturer,Macewan University
+973,Brian Everett,Science,Asspciate Professor,Macewan University
+974,Kaitlyn Alvarez,Science,Lecturer,University of Calgary
+975,John Snyder,Science,Asspciate Professor,NAIT
+976,Julie Garcia,Arts,Lecturer,Macewan University
+977,Stephanie Reyes,Business,Professor,University of Alberta
+978,Michael Dean,Business,Lecturer,NAIT
+979,Stephen Smith,Science,Professor,Macewan University
+980,Juan Torres,Arts,Lecturer,NAIT
+981,Nathan Sanders,Business,Lecturer,NAIT
+982,Eric Mitchell,Arts,Asspciate Professor,NAIT
+983,Lori Solis,Business,Visiting Professor,University of Alberta
+984,Alexander Davis V,Arts,Visiting Professor,NAIT
+985,Michelle Holt,Arts,Visiting Professor,University of Alberta
+986,Pamela Thomas,Arts,Visiting Professor,University of Calgary
+987,Patricia Rogers,Science,Visiting Professor,University of Calgary
+988,Frank Henry,Arts,Asspciate Professor,Macewan University
+989,Angela King,Science,Lecturer,Macewan University
+990,Janet Foley,Arts,Visiting Professor,Macewan University
+991,Julia Mccormick,Science,Professor,Macewan University
+992,Kevin Hawkins,Arts,Visiting Professor,NAIT
+993,Brittney Norman,Business,Asspciate Professor,NAIT
+994,Emily French,Arts,Professor,University of Calgary
+995,Benjamin Waters,Arts,Asspciate Professor,University of Calgary
+996,David Davis,Business,Lecturer,University of Alberta
+997,Timothy Rowe,Science,Visiting Professor,Macewan University
+998,Susan Simpson,Arts,Visiting Professor,Macewan University
+999,Matthew Nelson,Arts,Professor,NAIT
+1000,Jamie Silva,Business,Visiting Professor,University of Alberta
