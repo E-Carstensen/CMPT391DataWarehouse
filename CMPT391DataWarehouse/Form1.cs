@@ -1,3 +1,7 @@
+using System.Data;
+using System.Data.SqlClient;
+using System.Windows.Forms;
+
 namespace CMPT391DataWarehouse
 {
     public partial class Form1 : Form
@@ -44,14 +48,71 @@ namespace CMPT391DataWarehouse
 
             sqlQuery += addJoinStatements(sqlQuery);
 
-            label_numResults.Text = sqlQuery;
+
+
+            executeQuery(sqlQuery);
 
 
 
+            updateLabels();
 
+        }
+
+        private void executeQuery(string sqlQuery)
+        {
+            DataTable dt = new DataTable();
+
+            string connectionString = "server=(local);Database=CMPT391DataWarehouse;Integrated Security=True";
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+
+                    SqlCommand cmd = new SqlCommand("proc_exec_query", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@query", SqlDbType.NVarChar).Value = sqlQuery;
+
+                    conn.Open();
+
+
+
+                    dt.Load(cmd.ExecuteReader());
+                    dataGridResults.DataSource = dt;
+
+                    conn.Close();
+
+
+                }
+            }
+            catch (Exception ex) { label_numResults.Text += "\n" + ex.Message; }
+        }
+
+        private void updateLabels()
+        {
+            label_numResults.Text = (dataGridResults.Rows.Count - 1).ToString();
+            label_uniqueIds.Text = countUniqueCourses().ToString();
 
 
         }
+
+        private int countUniqueCourses()
+        {
+            int columnIndex = 0;
+            HashSet<object> uniqueValues = new HashSet<object>();
+
+            foreach (DataGridViewRow row in dataGridResults.Rows)
+            {
+                if (row.Cells[columnIndex].Value != null)
+                {
+                    uniqueValues.Add(row.Cells[columnIndex].Value);
+                }
+            }
+
+            int count = uniqueValues.Count;
+            return count;
+
+        }
+
 
         private string checkCourseFilters()
         {
@@ -140,12 +201,12 @@ namespace CMPT391DataWarehouse
         {
             string output = "";
 
-             
+
 
             if (text_dateSem.Text.Length > 0)
             {
                 output += "Semester = '" + text_dateSem.Text + "'";
-              
+
             }
 
             if (text_dateYear.Text.Length > 0)
@@ -154,7 +215,7 @@ namespace CMPT391DataWarehouse
                 output += "Year = " + text_dateYear.Text;
             }
 
-            if (output.Length > 0) { output =", (SELECT SectionID FROM Section WHERE " + output + ") AS D"; }
+            if (output.Length > 0) { output = ", (SELECT SectionID FROM Section WHERE " + output + ") AS D"; }
 
             return output;
 
@@ -195,6 +256,16 @@ namespace CMPT391DataWarehouse
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fa(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
         {
 
         }

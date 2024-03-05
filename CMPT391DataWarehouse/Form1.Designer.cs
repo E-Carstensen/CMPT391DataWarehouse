@@ -45,24 +45,26 @@
             text_gender = new TextBox();
             label11 = new Label();
             groupBox1 = new GroupBox();
+            text_dateSem = new TextBox();
+            label18 = new Label();
+            label17 = new Label();
+            text_dateYear = new TextBox();
+            label14 = new Label();
+            text_courseDepartment = new TextBox();
+            text_courseUni = new TextBox();
+            text_courseName = new TextBox();
             label16 = new Label();
             label15 = new Label();
             label13 = new Label();
             searchButton = new Button();
             text_major = new TextBox();
-            dataGridView1 = new DataGridView();
+            dataGridResults = new DataGridView();
             label12 = new Label();
             label_numResults = new Label();
-            text_courseName = new TextBox();
-            text_courseUni = new TextBox();
-            text_courseDepartment = new TextBox();
-            label14 = new Label();
-            text_dateYear = new TextBox();
-            label17 = new Label();
-            label18 = new Label();
-            text_dateSem = new TextBox();
+            label19 = new Label();
+            label_uniqueIds = new Label();
             groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridResults).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -256,6 +258,77 @@
             groupBox1.TabIndex = 23;
             groupBox1.TabStop = false;
             // 
+            // text_dateSem
+            // 
+            text_dateSem.Location = new Point(20, 369);
+            text_dateSem.Margin = new Padding(4, 5, 4, 5);
+            text_dateSem.Name = "text_dateSem";
+            text_dateSem.Size = new Size(160, 31);
+            text_dateSem.TabIndex = 36;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(21, 339);
+            label18.Margin = new Padding(4, 0, 4, 0);
+            label18.Name = "label18";
+            label18.Size = new Size(85, 25);
+            label18.TabIndex = 35;
+            label18.Text = "Semester";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(20, 273);
+            label17.Margin = new Padding(4, 0, 4, 0);
+            label17.Name = "label17";
+            label17.Size = new Size(44, 25);
+            label17.TabIndex = 34;
+            label17.Text = "Year";
+            // 
+            // text_dateYear
+            // 
+            text_dateYear.Location = new Point(20, 303);
+            text_dateYear.Margin = new Padding(4, 5, 4, 5);
+            text_dateYear.Name = "text_dateYear";
+            text_dateYear.Size = new Size(160, 31);
+            text_dateYear.TabIndex = 33;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label14.Location = new Point(8, 248);
+            label14.Margin = new Padding(4, 0, 4, 0);
+            label14.Name = "label14";
+            label14.Size = new Size(52, 25);
+            label14.TabIndex = 32;
+            label14.Text = "Date";
+            // 
+            // text_courseDepartment
+            // 
+            text_courseDepartment.Location = new Point(20, 212);
+            text_courseDepartment.Margin = new Padding(4, 5, 4, 5);
+            text_courseDepartment.Name = "text_courseDepartment";
+            text_courseDepartment.Size = new Size(160, 31);
+            text_courseDepartment.TabIndex = 31;
+            // 
+            // text_courseUni
+            // 
+            text_courseUni.Location = new Point(20, 146);
+            text_courseUni.Margin = new Padding(4, 5, 4, 5);
+            text_courseUni.Name = "text_courseUni";
+            text_courseUni.Size = new Size(160, 31);
+            text_courseUni.TabIndex = 30;
+            // 
+            // text_courseName
+            // 
+            text_courseName.Location = new Point(20, 80);
+            text_courseName.Margin = new Padding(4, 5, 4, 5);
+            text_courseName.Name = "text_courseName";
+            text_courseName.Size = new Size(160, 31);
+            text_courseName.TabIndex = 29;
+            // 
             // label16
             // 
             label16.AutoSize = true;
@@ -307,15 +380,17 @@
             text_major.Size = new Size(158, 31);
             text_major.TabIndex = 23;
             // 
-            // dataGridView1
+            // dataGridResults
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(309, 80);
-            dataGridView1.Margin = new Padding(4, 5, 4, 5);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(1133, 832);
-            dataGridView1.TabIndex = 24;
+            dataGridResults.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridResults.Location = new Point(309, 80);
+            dataGridResults.Margin = new Padding(4, 5, 4, 5);
+            dataGridResults.Name = "dataGridResults";
+            dataGridResults.ReadOnly = true;
+            dataGridResults.RowHeadersWidth = 62;
+            dataGridResults.Size = new Size(1133, 832);
+            dataGridResults.TabIndex = 24;
+            dataGridResults.AllowUserToAddRowsChanged += fa;
             // 
             // label12
             // 
@@ -324,9 +399,10 @@
             label12.Location = new Point(309, 963);
             label12.Margin = new Padding(4, 0, 4, 0);
             label12.Name = "label12";
-            label12.Size = new Size(213, 30);
+            label12.Size = new Size(200, 30);
             label12.TabIndex = 25;
-            label12.Text = "Number of Courses: ";
+            label12.Text = "Number of Entries: ";
+            label12.Click += label12_Click;
             // 
             // label_numResults
             // 
@@ -340,85 +416,38 @@
             label_numResults.Text = "0";
             label_numResults.Click += label14_Click;
             // 
-            // text_courseName
+            // label19
             // 
-            text_courseName.Location = new Point(20, 80);
-            text_courseName.Margin = new Padding(4, 5, 4, 5);
-            text_courseName.Name = "text_courseName";
-            text_courseName.Size = new Size(160, 31);
-            text_courseName.TabIndex = 29;
+            label19.AutoSize = true;
+            label19.Font = new Font("Segoe UI", 11F);
+            label19.Location = new Point(700, 963);
+            label19.Margin = new Padding(4, 0, 4, 0);
+            label19.Name = "label19";
+            label19.Size = new Size(197, 30);
+            label19.TabIndex = 27;
+            label19.Text = "Unique Course IDs:";
             // 
-            // text_courseUni
+            // label_uniqueIds
             // 
-            text_courseUni.Location = new Point(20, 146);
-            text_courseUni.Margin = new Padding(4, 5, 4, 5);
-            text_courseUni.Name = "text_courseUni";
-            text_courseUni.Size = new Size(160, 31);
-            text_courseUni.TabIndex = 30;
-            // 
-            // text_courseDepartment
-            // 
-            text_courseDepartment.Location = new Point(20, 212);
-            text_courseDepartment.Margin = new Padding(4, 5, 4, 5);
-            text_courseDepartment.Name = "text_courseDepartment";
-            text_courseDepartment.Size = new Size(160, 31);
-            text_courseDepartment.TabIndex = 31;
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label14.Location = new Point(8, 248);
-            label14.Margin = new Padding(4, 0, 4, 0);
-            label14.Name = "label14";
-            label14.Size = new Size(52, 25);
-            label14.TabIndex = 32;
-            label14.Text = "Date";
-            // 
-            // text_dateYear
-            // 
-            text_dateYear.Location = new Point(20, 303);
-            text_dateYear.Margin = new Padding(4, 5, 4, 5);
-            text_dateYear.Name = "text_dateYear";
-            text_dateYear.Size = new Size(160, 31);
-            text_dateYear.TabIndex = 33;
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Location = new Point(20, 273);
-            label17.Margin = new Padding(4, 0, 4, 0);
-            label17.Name = "label17";
-            label17.Size = new Size(44, 25);
-            label17.TabIndex = 34;
-            label17.Text = "Year";
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Location = new Point(21, 339);
-            label18.Margin = new Padding(4, 0, 4, 0);
-            label18.Name = "label18";
-            label18.Size = new Size(85, 25);
-            label18.TabIndex = 35;
-            label18.Text = "Semester";
-            // 
-            // text_dateSem
-            // 
-            text_dateSem.Location = new Point(20, 369);
-            text_dateSem.Margin = new Padding(4, 5, 4, 5);
-            text_dateSem.Name = "text_dateSem";
-            text_dateSem.Size = new Size(160, 31);
-            text_dateSem.TabIndex = 36;
+            label_uniqueIds.AutoSize = true;
+            label_uniqueIds.Font = new Font("Segoe UI", 11F);
+            label_uniqueIds.Location = new Point(924, 963);
+            label_uniqueIds.Margin = new Padding(4, 0, 4, 0);
+            label_uniqueIds.Name = "label_uniqueIds";
+            label_uniqueIds.Size = new Size(25, 30);
+            label_uniqueIds.TabIndex = 28;
+            label_uniqueIds.Text = "0";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1483, 1030);
+            Controls.Add(label_uniqueIds);
+            Controls.Add(label19);
             Controls.Add(label_numResults);
             Controls.Add(label12);
-            Controls.Add(dataGridView1);
+            Controls.Add(dataGridResults);
             Controls.Add(label4);
             Controls.Add(label1);
             Controls.Add(groupBox1);
@@ -427,7 +456,7 @@
             Text = "Form1";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridResults).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -454,7 +483,7 @@
         private Button searchButton;
         private TextBox text_major;
         private Label label13;
-        private DataGridView dataGridView1;
+        private DataGridView dataGridResults;
         private Label label12;
         private Label label_numResults;
         private Label label16;
@@ -467,5 +496,7 @@
         private Label label17;
         private TextBox text_dateYear;
         private Label label14;
+        private Label label19;
+        private Label label_uniqueIds;
     }
 }
