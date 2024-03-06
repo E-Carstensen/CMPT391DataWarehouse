@@ -48,7 +48,7 @@ namespace CMPT391DataWarehouse
 
             sqlQuery += addJoinStatements(sqlQuery);
 
-            //label1.Text = sqlQuery;
+            label_query.Text = sqlQuery;
 
             executeQuery(sqlQuery);
 

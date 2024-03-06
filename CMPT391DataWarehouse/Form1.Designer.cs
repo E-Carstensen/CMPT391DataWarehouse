@@ -63,6 +63,7 @@
             label_numResults = new Label();
             label19 = new Label();
             label_uniqueIds = new Label();
+            label_query = new Label();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridResults).BeginInit();
             SuspendLayout();
@@ -445,11 +446,26 @@
             label_uniqueIds.TabIndex = 28;
             label_uniqueIds.Text = "0";
             // 
+            // label_query
+            // 
+            label_query.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            label_query.AutoSize = true;
+            label_query.Cursor = Cursors.SizeNS;
+            label_query.Font = new Font("Segoe UI", 9F);
+            label_query.ForeColor = SystemColors.ControlDarkDark;
+            label_query.Location = new Point(268, 996);
+            label_query.Margin = new Padding(4, 0, 4, 0);
+            label_query.Name = "label_query";
+            label_query.Size = new Size(17, 25);
+            label_query.TabIndex = 29;
+            label_query.Text = " ";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1483, 1030);
+            Controls.Add(label_query);
             Controls.Add(label_uniqueIds);
             Controls.Add(label19);
             Controls.Add(label_numResults);
@@ -505,5 +521,6 @@
         private Label label14;
         private Label label19;
         private Label label_uniqueIds;
+        private Label label_query;
     }
 }
