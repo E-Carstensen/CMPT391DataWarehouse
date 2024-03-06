@@ -137,7 +137,7 @@ namespace CMPT391DataWarehouse
             }
 
 
-            if (output.Length > 0) { output = ", (SELECT CourseID, Name FROM Course WHERE " + output + ") as C"; }
+            if (output.Length > 0) { output = ", (SELECT *, Name FROM Course WHERE " + output + ") as C"; }
             return output;
         }
 
@@ -163,7 +163,7 @@ namespace CMPT391DataWarehouse
                 output += "Rank = '" + text_rank.Text + "'";
             }
 
-            if (output.Length > 0) { output = ", (Select InstructorID FROM Instructor WHERE " + output + ") AS I"; }
+            if (output.Length > 0) { output = ", (Select InstructorID, Name FROM Instructor WHERE " + output + ") AS I"; }
 
 
             return output;
@@ -192,7 +192,7 @@ namespace CMPT391DataWarehouse
 
             }
 
-            if (output.Length > 0) { output = ", (SELECT StudentID FROM Student WHERE " + output + ") AS S"; }
+            if (output.Length > 0) { output = ", (SELECT StudentID, Major FROM Student WHERE " + output + ") AS S"; }
 
             return output;
         }

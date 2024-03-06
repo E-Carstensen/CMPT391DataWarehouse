@@ -223,6 +223,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             groupBox1.Controls.Add(text_dateSem);
             groupBox1.Controls.Add(label18);
             groupBox1.Controls.Add(label17);
@@ -363,6 +364,7 @@
             // 
             // searchButton
             // 
+            searchButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             searchButton.Location = new Point(9, 887);
             searchButton.Margin = new Padding(4, 5, 4, 5);
             searchButton.Name = "searchButton";
@@ -382,6 +384,7 @@
             // 
             // dataGridResults
             // 
+            dataGridResults.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridResults.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridResults.Location = new Point(309, 80);
             dataGridResults.Margin = new Padding(4, 5, 4, 5);
@@ -394,6 +397,7 @@
             // 
             // label12
             // 
+            label12.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI", 11F);
             label12.Location = new Point(309, 963);
@@ -406,6 +410,7 @@
             // 
             // label_numResults
             // 
+            label_numResults.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label_numResults.AutoSize = true;
             label_numResults.Font = new Font("Segoe UI", 11F);
             label_numResults.Location = new Point(521, 963);
@@ -418,6 +423,7 @@
             // 
             // label19
             // 
+            label19.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label19.AutoSize = true;
             label19.Font = new Font("Segoe UI", 11F);
             label19.Location = new Point(700, 963);
@@ -429,6 +435,7 @@
             // 
             // label_uniqueIds
             // 
+            label_uniqueIds.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label_uniqueIds.AutoSize = true;
             label_uniqueIds.Font = new Font("Segoe UI", 11F);
             label_uniqueIds.Location = new Point(924, 963);
