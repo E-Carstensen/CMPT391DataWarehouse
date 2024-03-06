@@ -1,4 +1,4 @@
-create proc proc_exec_query @query nvarchar(128) AS
+alter proc proc_exec_query @query nvarchar(512) AS
 BEGIN
 	EXEC(@query)
 END
