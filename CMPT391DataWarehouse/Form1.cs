@@ -39,7 +39,7 @@ namespace CMPT391DataWarehouse
         private void searchButton_Click(object sender, EventArgs e)
         {
 
-            string sqlQuery = "SELECT * FROM Course_Fact_Table as CFT ";
+            string sqlQuery = "SELECT * FROM Course_Fact_Table as CFT";
 
             sqlQuery += checkSectionFilters();
             sqlQuery += checkStudentFilters();
@@ -48,11 +48,11 @@ namespace CMPT391DataWarehouse
 
             sqlQuery += addJoinStatements(sqlQuery);
 
-
+            label1.Text = sqlQuery;
 
             executeQuery(sqlQuery);
 
-
+            System.Diagnostics.Debug.WriteLine(sqlQuery);
 
             updateLabels();
 
@@ -61,6 +61,7 @@ namespace CMPT391DataWarehouse
         private void executeQuery(string sqlQuery)
         {
             DataTable dt = new DataTable();
+
 
             string connectionString = "server=(local);Database=CMPT391DataWarehouse;Integrated Security=True";
             try
@@ -84,7 +85,7 @@ namespace CMPT391DataWarehouse
 
                 }
             }
-            catch (Exception ex) { label_numResults.Text += "\n" + ex.Message; }
+            catch (SqlException ex) { label_numResults.Text += "\n" + ex.Message; }
         }
 
         private void updateLabels()
@@ -126,7 +127,7 @@ namespace CMPT391DataWarehouse
             if (text_courseDepartment.Text.Length > 0)
             {
                 if (output.Length > 0) { output += " AND "; }
-                output += "Departement = '" + text_courseDepartment.Text + "'";
+                output += "Department = '" + text_courseDepartment.Text + "'";
             }
 
             if (text_courseUni.Text.Length > 0)
@@ -136,7 +137,7 @@ namespace CMPT391DataWarehouse
             }
 
 
-            if (output.Length > 0) { output = ", (SELECT CourseID FROM Course WHERE " + output + ") as C"; }
+            if (output.Length > 0) { output = ", (SELECT CourseID, Name FROM Course WHERE " + output + ") as C"; }
             return output;
         }
 
