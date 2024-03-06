@@ -137,7 +137,7 @@ namespace CMPT391DataWarehouse
             }
 
 
-            if (output.Length > 0) { output = ", (SELECT *, Name FROM Course WHERE " + output + ") as C"; }
+            if (output.Length > 0) { output = ", (SELECT CourseID, Name, University, Department FROM Course WHERE " + output + ") as C"; }
             return output;
         }
 
@@ -216,7 +216,7 @@ namespace CMPT391DataWarehouse
                 output += "Year = " + text_dateYear.Text;
             }
 
-            if (output.Length > 0) { output = ", (SELECT SectionID FROM Section WHERE " + output + ") AS D"; }
+            if (output.Length > 0) { output = ", (SELECT SectionID, year, Semester FROM Section WHERE " + output + ") AS D"; }
 
             return output;
 
