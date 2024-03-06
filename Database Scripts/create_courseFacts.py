@@ -9,7 +9,7 @@ range4 = range(0, 100000)
 range5 = [1]
 
 # Number of rows in the CSV
-num_rows = 500000  # You can adjust this based on your needs
+num_rows = 200000  # You can adjust this based on your needs
 
 # Generate random values and write to CSV
 with open('courseFact (3).csv', 'w', newline='') as csvfile:

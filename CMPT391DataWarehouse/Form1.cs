@@ -48,7 +48,7 @@ namespace CMPT391DataWarehouse
 
             sqlQuery += addJoinStatements(sqlQuery);
 
-            label1.Text = sqlQuery;
+            //label1.Text = sqlQuery;
 
             executeQuery(sqlQuery);
 
@@ -192,7 +192,7 @@ namespace CMPT391DataWarehouse
 
             }
 
-            if (output.Length > 0) { output = ", (SELECT StudentID, Major FROM Student WHERE " + output + ") AS S"; }
+            if (output.Length > 0) { output = ", (SELECT StudentID, Name, Major FROM Student WHERE " + output + ") AS S"; }
 
             return output;
         }
