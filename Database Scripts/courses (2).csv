@@ -1,0 +1,1001 @@
+CourseID,Name,Department,University
+1, Chemistry,Economics,Macewan University
+2, Economics,Economics,NAIT
+3, Economics,Accounting,University of Alberta
+4, Biology III,Humanities,Macewan University
+5, Mathematics,Communications,Macewan University
+6, History,Biology,University of Alberta
+7, Literature,Computer Science,Macewan University
+8, History,Biology,University of Alberta
+9, Physics II,Computer Science,Macewan University
+10, Physics,Finance,Macewan University
+11, Literature,Business,University of Alberta
+12, Biology III,Economics,University of Alberta
+13, Physics,English,University of Calgary
+14, Biology V,Design,Macewan University
+15, Literature,Accounting,Macewan University
+16, Physics,Computer Science,NAIT
+17, Physics V,Humanities,University of Alberta
+18, Physics,Anthropology,University of Alberta
+19, Physics,Humanities,NAIT
+20, Biology,Anthropology,NAIT
+21, Computer Science,Economics,University of Alberta
+22, Chemistry,Business,NAIT
+23, History,Economics,NAIT
+24, Literature IV,English,University of Calgary
+25, Chemistry,Finance,University of Calgary
+26, Physics,Business,NAIT
+27, Physics,Accounting,University of Alberta
+28, Economics,Finance,Macewan University
+29, Biology,Finance,University of Alberta
+30, Computer Science III,Anthropology,University of Alberta
+31, Chemistry,Biology,NAIT
+32, History,English,NAIT
+33, Biology V,Communications,Macewan University
+34, Physics I,Economics,University of Alberta
+35, Mathematics,English,University of Alberta
+36, Biology II,Biology,University of Calgary
+37, Biology,Biology,University of Calgary
+38, Physics,Humanities,University of Calgary
+39, Chemistry,Humanities,University of Alberta
+40, Chemistry,Anthropology,Macewan University
+41, Physics,Humanities,University of Alberta
+42, Chemistry,Accounting,NAIT
+43, Literature,Finance,University of Alberta
+44, Literature V,Computer Science,University of Calgary
+45, Literature,Finance,Macewan University
+46, History,Biology,Macewan University
+47, Biology V,Humanities,University of Calgary
+48, Mathematics,Anthropology,University of Alberta
+49, Physics,Biology,NAIT
+50, Physics,Business,Macewan University
+51, Economics,Humanities,Macewan University
+52, Biology,Biology,Macewan University
+53, Economics,Design,University of Calgary
+54, Mathematics I,Anthropology,Macewan University
+55, Biology III,Biology,University of Calgary
+56, Computer Science I,Political Science,Macewan University
+57, Computer Science,Accounting,University of Calgary
+58, Literature,Design,University of Alberta
+59, Physics,Communications,Macewan University
+60, Mathematics,Accounting,Macewan University
+61, Chemistry,Communications,University of Calgary
+62, Mathematics,Accounting,NAIT
+63, Economics,Design,NAIT
+64, Biology,Economics,University of Alberta
+65, Mathematics,Design,Macewan University
+66, Computer Science II,Accounting,University of Alberta
+67, History,Economics,Macewan University
+68, Biology,Accounting,NAIT
+69, Mathematics,Anthropology,Macewan University
+70, Literature,Biology,University of Alberta
+71, Mathematics,Political Science,Macewan University
+72, Computer Science IV,Humanities,NAIT
+73, History,Finance,NAIT
+74, Economics,Political Science,University of Alberta
+75, Computer Science V,Accounting,NAIT
+76, Computer Science,Anthropology,University of Calgary
+77, Physics,Communications,University of Alberta
+78, Chemistry,Political Science,University of Calgary
+79, Computer Science I,Humanities,University of Alberta
+80, Literature III,Communications,University of Alberta
+81, Physics,Biology,Macewan University
+82, Mathematics,Computer Science,University of Alberta
+83, Mathematics,Anthropology,University of Alberta
+84, Biology I,English,University of Alberta
+85, Literature V,Communications,University of Calgary
+86, Biology II,Finance,NAIT
+87, History II,Finance,University of Calgary
+88, Computer Science,Political Science,University of Alberta
+89, Biology,Biology,NAIT
+90, Economics,Communications,University of Calgary
+91, Chemistry I,Biology,University of Calgary
+92, Economics III,Communications,Macewan University
+93, Physics III,Humanities,University of Alberta
+94, Physics,Computer Science,University of Alberta
+95, Biology,Humanities,NAIT
+96, Physics,Political Science,University of Alberta
+97, Physics,Economics,University of Alberta
+98, Computer Science I,Political Science,NAIT
+99, Mathematics II,Business,NAIT
+100, History,Communications,NAIT
+101, Chemistry,Anthropology,NAIT
+102, Literature,Biology,Macewan University
+103, Mathematics V,English,University of Alberta
+104, History I,Biology,University of Calgary
+105, Economics,English,NAIT
+106, Economics,Communications,University of Alberta
+107, Chemistry IV,Computer Science,NAIT
+108, Computer Science I,Political Science,University of Alberta
+109, History,Biology,Macewan University
+110, Mathematics,Accounting,Macewan University
+111, Mathematics I,Economics,University of Alberta
+112, Chemistry,Political Science,University of Calgary
+113, History,Political Science,Macewan University
+114, Biology,Biology,University of Alberta
+115, Literature,Design,Macewan University
+116, Literature,Biology,University of Alberta
+117, Computer Science I,Business,University of Calgary
+118, Biology,Political Science,University of Calgary
+119, Economics,Communications,NAIT
+120, Economics,Political Science,University of Alberta
+121, Computer Science,Design,NAIT
+122, Chemistry,Computer Science,University of Calgary
+123, Economics,Communications,University of Calgary
+124, Biology I,English,Macewan University
+125, Computer Science I,Political Science,University of Calgary
+126, Chemistry,Finance,Macewan University
+127, Biology IV,Biology,University of Calgary
+128, Mathematics,Biology,University of Calgary
+129, Literature,Biology,University of Calgary
+130, Physics,Design,University of Calgary
+131, Physics,Biology,NAIT
+132, Biology,English,NAIT
+133, Chemistry,Accounting,University of Alberta
+134, Chemistry,Political Science,Macewan University
+135, Physics,English,Macewan University
+136, Economics V,Biology,University of Calgary
+137, Biology,Design,NAIT
+138, Biology II,Biology,Macewan University
+139, History,Business,NAIT
+140, Literature,Business,University of Alberta
+141, Physics,Accounting,NAIT
+142, Biology IV,Design,University of Alberta
+143, Computer Science,Political Science,University of Calgary
+144, Economics,Design,University of Alberta
+145, Physics I,Anthropology,NAIT
+146, Computer Science II,Finance,Macewan University
+147, Chemistry,Finance,Macewan University
+148, Economics III,Humanities,Macewan University
+149, Mathematics,Business,Macewan University
+150, Chemistry I,English,University of Calgary
+151, Computer Science,English,NAIT
+152, Physics V,Economics,University of Calgary
+153, Physics IV,Humanities,NAIT
+154, History I,Humanities,University of Calgary
+155, Literature IV,Biology,NAIT
+156, Biology,Communications,University of Alberta
+157, Computer Science,Design,NAIT
+158, Chemistry IV,Anthropology,Macewan University
+159, Economics,English,NAIT
+160, Computer Science,Humanities,NAIT
+161, Economics,Design,University of Calgary
+162, History,Finance,Macewan University
+163, Economics,Political Science,University of Alberta
+164, Computer Science II,Finance,NAIT
+165, Computer Science,Anthropology,University of Alberta
+166, Mathematics,Design,Macewan University
+167, Biology IV,Economics,Macewan University
+168, History,Finance,Macewan University
+169, Physics,Political Science,NAIT
+170, Economics,Finance,University of Alberta
+171, Mathematics,Communications,Macewan University
+172, Computer Science V,Anthropology,University of Alberta
+173, Biology IV,Accounting,Macewan University
+174, Literature I,Biology,University of Alberta
+175, Economics,Economics,University of Alberta
+176, Computer Science V,Political Science,NAIT
+177, Biology I,Biology,NAIT
+178, Economics I,Biology,University of Calgary
+179, Biology,Economics,NAIT
+180, Computer Science,English,Macewan University
+181, Economics,English,University of Calgary
+182, Chemistry IV,Political Science,NAIT
+183, History II,Humanities,NAIT
+184, Biology,Economics,University of Alberta
+185, History IV,Finance,NAIT
+186, Chemistry,Finance,Macewan University
+187, Biology,Political Science,University of Calgary
+188, Mathematics,Political Science,University of Alberta
+189, Chemistry III,Anthropology,University of Alberta
+190, Physics,Biology,NAIT
+191, Computer Science,Biology,Macewan University
+192, Economics I,Communications,University of Alberta
+193, Biology,Business,Macewan University
+194, Physics,Anthropology,University of Alberta
+195, Chemistry,Communications,University of Alberta
+196, Mathematics,Computer Science,Macewan University
+197, Computer Science,Finance,Macewan University
+198, Chemistry IV,Communications,University of Alberta
+199, Physics,Biology,University of Calgary
+200, Economics III,Finance,University of Calgary
+201, Chemistry,Finance,University of Alberta
+202, Mathematics I,Humanities,University of Alberta
+203, Chemistry V,Communications,NAIT
+204, History,Communications,Macewan University
+205, Literature,Finance,Macewan University
+206, Literature,Political Science,Macewan University
+207, Computer Science I,Economics,University of Calgary
+208, Physics,Political Science,University of Alberta
+209, Literature II,Humanities,University of Alberta
+210, Literature,Business,University of Alberta
+211, Economics,Anthropology,NAIT
+212, Computer Science I,Anthropology,University of Calgary
+213, History,Economics,NAIT
+214, Literature,Design,University of Alberta
+215, Chemistry,English,University of Alberta
+216, Chemistry,Humanities,Macewan University
+217, History II,Economics,University of Alberta
+218, History,English,University of Alberta
+219, Chemistry II,Political Science,NAIT
+220, History,English,University of Calgary
+221, Computer Science III,Political Science,University of Calgary
+222, Physics,Political Science,University of Alberta
+223, Biology,Communications,Macewan University
+224, Biology,Business,NAIT
+225, Biology I,Computer Science,Macewan University
+226, Literature,Economics,Macewan University
+227, Computer Science,Business,University of Alberta
+228, Economics,Humanities,NAIT
+229, History,Communications,NAIT
+230, Chemistry,Business,University of Alberta
+231, History II,Finance,NAIT
+232, Economics IV,Economics,NAIT
+233, Mathematics,Accounting,Macewan University
+234, Physics,Humanities,University of Calgary
+235, Biology,Biology,University of Alberta
+236, Chemistry III,Biology,NAIT
+237, Chemistry,Business,University of Alberta
+238, Physics,Anthropology,NAIT
+239, Literature,Anthropology,Macewan University
+240, Chemistry V,Design,University of Alberta
+241, Economics V,Biology,Macewan University
+242, Chemistry,Finance,University of Alberta
+243, Chemistry,English,University of Alberta
+244, Biology I,Design,NAIT
+245, History,Computer Science,NAIT
+246, History,English,University of Alberta
+247, Physics,Business,NAIT
+248, Mathematics,Communications,Macewan University
+249, Economics,Biology,Macewan University
+250, History,English,University of Alberta
+251, Chemistry,Finance,NAIT
+252, Computer Science,Accounting,University of Calgary
+253, History,Economics,University of Alberta
+254, Chemistry,Humanities,NAIT
+255, Mathematics III,Design,University of Calgary
+256, Biology,Communications,University of Calgary
+257, Economics II,Design,Macewan University
+258, Literature III,Humanities,Macewan University
+259, Literature,Business,Macewan University
+260, Computer Science III,Anthropology,NAIT
+261, Mathematics,English,University of Calgary
+262, Mathematics,Business,University of Alberta
+263, Biology,English,University of Calgary
+264, Literature II,Biology,University of Calgary
+265, Physics,Accounting,University of Calgary
+266, Economics II,Economics,NAIT
+267, Computer Science,Accounting,University of Alberta
+268, History,Design,NAIT
+269, Chemistry,Humanities,University of Alberta
+270, History,Communications,NAIT
+271, Physics I,Finance,University of Calgary
+272, Mathematics,Communications,University of Calgary
+273, Chemistry,Finance,University of Alberta
+274, Economics,Design,University of Alberta
+275, Biology I,Anthropology,University of Calgary
+276, Physics V,Political Science,University of Alberta
+277, History III,English,University of Alberta
+278, Chemistry,Political Science,Macewan University
+279, Literature I,Communications,NAIT
+280, Biology,English,Macewan University
+281, Economics,English,University of Alberta
+282, Chemistry III,Design,University of Alberta
+283, Computer Science,Communications,University of Alberta
+284, Biology,Communications,University of Calgary
+285, Computer Science,Biology,NAIT
+286, Computer Science III,Accounting,Macewan University
+287, Chemistry,Political Science,University of Alberta
+288, History I,Business,Macewan University
+289, Biology III,Accounting,Macewan University
+290, Literature,Communications,University of Alberta
+291, History V,Political Science,NAIT
+292, Computer Science,Finance,Macewan University
+293, History I,Business,University of Calgary
+294, Literature,English,University of Calgary
+295, History,Anthropology,NAIT
+296, History,Political Science,University of Calgary
+297, Chemistry,English,Macewan University
+298, Physics,Humanities,Macewan University
+299, Physics,Economics,University of Calgary
+300, History,English,University of Alberta
+301, Chemistry,Communications,NAIT
+302, Chemistry,Communications,Macewan University
+303, Mathematics,Finance,NAIT
+304, Literature V,Anthropology,University of Alberta
+305, Computer Science,Economics,University of Calgary
+306, Chemistry,Computer Science,Macewan University
+307, Economics II,Anthropology,University of Alberta
+308, Mathematics,English,University of Alberta
+309, Mathematics,Communications,University of Alberta
+310, History,Humanities,NAIT
+311, Biology,Humanities,Macewan University
+312, Literature V,English,University of Alberta
+313, Mathematics,English,University of Alberta
+314, Economics,Biology,Macewan University
+315, Literature III,Business,NAIT
+316, Economics,Business,NAIT
+317, Computer Science,Business,NAIT
+318, Computer Science,English,University of Calgary
+319, Economics,Anthropology,University of Alberta
+320, Literature,Business,NAIT
+321, Economics,Computer Science,University of Alberta
+322, Economics,Anthropology,Macewan University
+323, Mathematics IV,Computer Science,NAIT
+324, Literature,Accounting,Macewan University
+325, Computer Science,Anthropology,NAIT
+326, Mathematics,Communications,Macewan University
+327, Mathematics,Communications,Macewan University
+328, History,Design,Macewan University
+329, Mathematics,Biology,NAIT
+330, Mathematics IV,Economics,University of Alberta
+331, Literature,Anthropology,University of Calgary
+332, Mathematics I,Humanities,Macewan University
+333, History,Finance,University of Alberta
+334, History,English,University of Calgary
+335, Literature,Humanities,NAIT
+336, Chemistry,Communications,University of Calgary
+337, Mathematics III,Design,University of Calgary
+338, Economics,Accounting,University of Alberta
+339, Literature,Biology,Macewan University
+340, Mathematics,Economics,Macewan University
+341, Literature II,Biology,Macewan University
+342, Economics II,Anthropology,Macewan University
+343, Biology,Anthropology,University of Alberta
+344, Biology II,Political Science,University of Alberta
+345, Literature,Biology,NAIT
+346, Computer Science,Computer Science,NAIT
+347, Mathematics I,Political Science,University of Calgary
+348, Economics V,English,University of Calgary
+349, Physics,Economics,Macewan University
+350, Literature,Communications,University of Calgary
+351, Computer Science,Computer Science,NAIT
+352, Physics,Economics,NAIT
+353, Mathematics II,Humanities,University of Calgary
+354, Physics,Humanities,University of Calgary
+355, Computer Science,Biology,University of Alberta
+356, Biology,Computer Science,Macewan University
+357, Mathematics IV,Economics,NAIT
+358, Economics,English,University of Calgary
+359, Economics,Computer Science,Macewan University
+360, Chemistry,Political Science,NAIT
+361, Physics II,Accounting,Macewan University
+362, Biology III,Humanities,NAIT
+363, Biology,Business,NAIT
+364, Mathematics,Political Science,University of Alberta
+365, Literature V,Political Science,University of Alberta
+366, Computer Science IV,Economics,Macewan University
+367, Mathematics,Design,University of Calgary
+368, Computer Science,Economics,NAIT
+369, Mathematics,Economics,University of Calgary
+370, Literature,Anthropology,University of Calgary
+371, Biology,Design,NAIT
+372, Mathematics,Anthropology,Macewan University
+373, Chemistry,English,University of Calgary
+374, Economics IV,Finance,University of Alberta
+375, Biology,Humanities,NAIT
+376, Literature III,Accounting,Macewan University
+377, Literature V,Anthropology,University of Calgary
+378, Physics,Computer Science,University of Calgary
+379, Computer Science,Accounting,University of Calgary
+380, Physics IV,Communications,University of Calgary
+381, History,Economics,Macewan University
+382, Mathematics I,English,University of Alberta
+383, Economics,English,University of Alberta
+384, History,Finance,University of Alberta
+385, Economics,Anthropology,University of Calgary
+386, Literature,Design,Macewan University
+387, History,Accounting,University of Calgary
+388, Biology V,Accounting,NAIT
+389, Computer Science,Computer Science,University of Alberta
+390, Economics,Business,NAIT
+391, History,Political Science,University of Calgary
+392, Literature II,Humanities,Macewan University
+393, Physics,Humanities,University of Calgary
+394, Computer Science,Design,NAIT
+395, History,Biology,Macewan University
+396, History,Political Science,Macewan University
+397, Mathematics,Business,Macewan University
+398, Mathematics,Humanities,NAIT
+399, Chemistry,Computer Science,NAIT
+400, Mathematics II,Computer Science,Macewan University
+401, Mathematics III,Communications,NAIT
+402, History,Political Science,University of Alberta
+403, Computer Science,Business,University of Calgary
+404, Literature,Business,Macewan University
+405, History,Design,University of Alberta
+406, Physics,Humanities,University of Alberta
+407, Computer Science III,Biology,Macewan University
+408, History,Communications,Macewan University
+409, Literature IV,Business,Macewan University
+410, Literature,Political Science,Macewan University
+411, Computer Science,English,University of Calgary
+412, Economics,Political Science,University of Calgary
+413, Computer Science,Economics,University of Calgary
+414, Chemistry,Accounting,Macewan University
+415, Biology,Economics,University of Calgary
+416, Mathematics,Finance,University of Alberta
+417, Economics,Accounting,Macewan University
+418, Computer Science V,Business,NAIT
+419, Literature,Finance,University of Alberta
+420, Chemistry IV,Design,Macewan University
+421, Mathematics II,Business,Macewan University
+422, Literature I,English,University of Alberta
+423, Economics,Communications,Macewan University
+424, Computer Science IV,Design,University of Calgary
+425, Mathematics,Design,University of Alberta
+426, History I,Humanities,Macewan University
+427, Chemistry,Communications,University of Alberta
+428, Literature,Computer Science,NAIT
+429, Computer Science IV,English,University of Alberta
+430, Physics,Accounting,Macewan University
+431, Biology,Design,NAIT
+432, Chemistry III,Anthropology,University of Calgary
+433, Chemistry,Finance,University of Calgary
+434, Literature IV,Accounting,Macewan University
+435, Economics,Anthropology,University of Alberta
+436, Physics I,Communications,NAIT
+437, Chemistry,Humanities,University of Calgary
+438, Economics,Biology,University of Calgary
+439, Computer Science,Communications,University of Calgary
+440, Economics,Anthropology,University of Calgary
+441, Economics,Anthropology,Macewan University
+442, Literature,Design,NAIT
+443, Economics,Anthropology,NAIT
+444, History II,Humanities,NAIT
+445, Computer Science II,Communications,University of Calgary
+446, Physics IV,Finance,University of Alberta
+447, Computer Science,Communications,University of Alberta
+448, Literature,Anthropology,University of Calgary
+449, Economics,Communications,Macewan University
+450, Biology IV,Economics,University of Calgary
+451, Mathematics,Finance,Macewan University
+452, Physics,Accounting,Macewan University
+453, Economics,Business,University of Calgary
+454, Biology III,Economics,Macewan University
+455, History,Economics,University of Calgary
+456, Physics,Political Science,NAIT
+457, Economics,Accounting,University of Calgary
+458, Physics,Anthropology,University of Calgary
+459, Biology I,Humanities,University of Calgary
+460, Computer Science V,Biology,Macewan University
+461, Chemistry,Anthropology,NAIT
+462, Chemistry III,Economics,NAIT
+463, Computer Science V,English,University of Calgary
+464, Economics,Economics,NAIT
+465, Chemistry,Finance,Macewan University
+466, Physics,Humanities,Macewan University
+467, Physics,Biology,University of Alberta
+468, Mathematics,Anthropology,Macewan University
+469, Physics,Business,NAIT
+470, Biology,Business,University of Alberta
+471, Biology,Economics,University of Calgary
+472, Economics II,Finance,University of Calgary
+473, Chemistry V,Economics,University of Calgary
+474, Computer Science I,Finance,Macewan University
+475, Literature,Political Science,Macewan University
+476, Mathematics,Design,NAIT
+477, Mathematics,Finance,University of Alberta
+478, Mathematics,Biology,University of Calgary
+479, Chemistry,Anthropology,University of Alberta
+480, Mathematics V,English,Macewan University
+481, Economics,Computer Science,NAIT
+482, Biology,Design,University of Calgary
+483, Economics,Economics,Macewan University
+484, Chemistry,Computer Science,Macewan University
+485, Biology,Biology,Macewan University
+486, Biology,Computer Science,Macewan University
+487, Computer Science,Economics,Macewan University
+488, Computer Science I,Communications,Macewan University
+489, Mathematics V,Computer Science,NAIT
+490, Biology V,Political Science,University of Calgary
+491, Physics,Economics,University of Calgary
+492, Chemistry,Biology,Macewan University
+493, Biology,Political Science,University of Calgary
+494, Biology II,Business,University of Alberta
+495, Economics,English,University of Calgary
+496, Chemistry,English,University of Alberta
+497, Economics,Anthropology,NAIT
+498, History,Humanities,University of Calgary
+499, Literature,Humanities,University of Alberta
+500, Mathematics,Finance,Macewan University
+501, Biology,Economics,University of Calgary
+502, Chemistry,Biology,NAIT
+503, Economics,Finance,University of Alberta
+504, Biology,Design,NAIT
+505, Economics,Design,Macewan University
+506, Literature,Anthropology,NAIT
+507, History,Political Science,University of Calgary
+508, Mathematics,Political Science,Macewan University
+509, Computer Science,English,NAIT
+510, Computer Science,Biology,University of Calgary
+511, Computer Science,Economics,Macewan University
+512, Physics V,Computer Science,Macewan University
+513, Physics IV,English,NAIT
+514, Economics I,Humanities,Macewan University
+515, Economics,Humanities,NAIT
+516, Computer Science,Computer Science,NAIT
+517, Literature IV,Computer Science,University of Alberta
+518, Computer Science,Finance,University of Calgary
+519, Mathematics,Business,NAIT
+520, Literature I,Humanities,University of Alberta
+521, Biology,Accounting,NAIT
+522, Mathematics III,Finance,University of Calgary
+523, Computer Science,Computer Science,University of Calgary
+524, Chemistry,Humanities,Macewan University
+525, Computer Science I,Finance,University of Alberta
+526, Mathematics IV,Finance,Macewan University
+527, Biology I,Communications,NAIT
+528, Literature IV,Computer Science,NAIT
+529, Biology,Economics,University of Alberta
+530, Physics I,Biology,University of Alberta
+531, Physics,Business,University of Alberta
+532, Biology,Finance,Macewan University
+533, History,Biology,University of Calgary
+534, Chemistry V,English,University of Calgary
+535, Literature II,Anthropology,University of Alberta
+536, History,Economics,University of Calgary
+537, Economics,Business,University of Alberta
+538, Economics,Finance,University of Calgary
+539, Economics,English,University of Alberta
+540, History,Accounting,University of Calgary
+541, Economics,Humanities,University of Alberta
+542, History,Design,University of Alberta
+543, Biology,Anthropology,University of Calgary
+544, Biology,Anthropology,University of Alberta
+545, Economics III,Economics,Macewan University
+546, History,Computer Science,Macewan University
+547, Physics,Finance,University of Alberta
+548, Chemistry V,Anthropology,NAIT
+549, Mathematics V,Communications,NAIT
+550, Chemistry,Political Science,University of Alberta
+551, Physics,Political Science,University of Alberta
+552, Computer Science,Computer Science,University of Alberta
+553, Literature IV,Business,University of Calgary
+554, Economics I,Accounting,Macewan University
+555, Literature,Biology,University of Alberta
+556, Literature,Finance,University of Alberta
+557, Mathematics,Communications,NAIT
+558, Physics,Economics,Macewan University
+559, Computer Science,Biology,NAIT
+560, Mathematics,Communications,University of Alberta
+561, Economics III,Anthropology,University of Alberta
+562, Literature,Economics,Macewan University
+563, Mathematics,Business,University of Calgary
+564, Literature,Economics,Macewan University
+565, Physics,Economics,NAIT
+566, History I,Political Science,University of Alberta
+567, Physics I,Business,NAIT
+568, Physics,Design,University of Calgary
+569, History III,Accounting,NAIT
+570, Chemistry IV,Accounting,Macewan University
+571, Computer Science,English,University of Alberta
+572, Chemistry I,Political Science,Macewan University
+573, Chemistry,Biology,University of Calgary
+574, Economics,English,Macewan University
+575, Mathematics,Finance,University of Calgary
+576, Physics,Political Science,NAIT
+577, Literature III,Computer Science,University of Alberta
+578, Chemistry,Finance,Macewan University
+579, Literature,Political Science,Macewan University
+580, Mathematics III,Communications,Macewan University
+581, Biology I,Business,NAIT
+582, Economics,Business,University of Alberta
+583, Computer Science,Business,Macewan University
+584, Chemistry,Political Science,University of Calgary
+585, Computer Science,Finance,University of Alberta
+586, Physics IV,Economics,University of Alberta
+587, Physics,Humanities,Macewan University
+588, Physics,Accounting,University of Calgary
+589, Physics,Humanities,Macewan University
+590, Physics,Political Science,NAIT
+591, Mathematics,Business,Macewan University
+592, Computer Science,Accounting,University of Calgary
+593, History V,Communications,Macewan University
+594, Computer Science,Political Science,University of Calgary
+595, Mathematics I,Business,NAIT
+596, Biology III,Humanities,University of Calgary
+597, Literature,English,NAIT
+598, Physics II,Economics,Macewan University
+599, Physics,Communications,Macewan University
+600, Computer Science,Accounting,University of Alberta
+601, Chemistry,Political Science,Macewan University
+602, Literature,Design,University of Alberta
+603, Biology,English,NAIT
+604, Mathematics,Economics,Macewan University
+605, Biology V,Finance,NAIT
+606, Literature,Political Science,Macewan University
+607, History I,Accounting,University of Calgary
+608, Physics,Anthropology,NAIT
+609, History,Anthropology,Macewan University
+610, Biology III,Communications,Macewan University
+611, Computer Science V,Computer Science,NAIT
+612, Literature,Biology,Macewan University
+613, Biology,Economics,Macewan University
+614, Chemistry,Computer Science,University of Alberta
+615, Biology,Political Science,University of Alberta
+616, Computer Science IV,Finance,Macewan University
+617, Mathematics I,Political Science,NAIT
+618, Chemistry IV,Accounting,Macewan University
+619, Biology,Computer Science,NAIT
+620, Physics,Humanities,NAIT
+621, History II,Communications,University of Calgary
+622, History III,English,NAIT
+623, Biology,Finance,Macewan University
+624, Chemistry,Humanities,Macewan University
+625, History,Anthropology,Macewan University
+626, Chemistry,Political Science,NAIT
+627, Chemistry,Anthropology,University of Alberta
+628, History,Computer Science,NAIT
+629, History I,Business,NAIT
+630, Biology,English,NAIT
+631, Chemistry,Communications,NAIT
+632, History II,Political Science,Macewan University
+633, Literature,Accounting,University of Alberta
+634, Chemistry,Computer Science,University of Calgary
+635, Computer Science II,Communications,NAIT
+636, Mathematics,Design,University of Alberta
+637, History II,Computer Science,University of Calgary
+638, History,Accounting,NAIT
+639, Economics,Humanities,NAIT
+640, History,Humanities,University of Alberta
+641, Mathematics,Finance,University of Alberta
+642, Biology V,Communications,NAIT
+643, Chemistry,Computer Science,Macewan University
+644, Biology,Finance,Macewan University
+645, Computer Science IV,Computer Science,Macewan University
+646, Literature,Computer Science,University of Calgary
+647, Chemistry III,Communications,University of Calgary
+648, Literature III,Economics,Macewan University
+649, Economics,Humanities,University of Alberta
+650, Physics,Communications,University of Calgary
+651, Economics,Communications,NAIT
+652, History,Computer Science,University of Calgary
+653, Economics,Political Science,NAIT
+654, Computer Science,Political Science,University of Alberta
+655, Biology,Political Science,University of Calgary
+656, Chemistry III,Biology,University of Alberta
+657, Biology V,Biology,University of Calgary
+658, Mathematics V,Computer Science,Macewan University
+659, History,Accounting,University of Calgary
+660, Economics,Business,University of Calgary
+661, Physics,Anthropology,NAIT
+662, Economics,Accounting,University of Calgary
+663, History II,Computer Science,University of Calgary
+664, History,Computer Science,University of Alberta
+665, History,Economics,University of Calgary
+666, Computer Science,Accounting,University of Alberta
+667, Economics II,Biology,University of Calgary
+668, Chemistry II,Finance,University of Alberta
+669, Computer Science,Economics,NAIT
+670, Computer Science,Design,NAIT
+671, History,Political Science,Macewan University
+672, Literature,Biology,Macewan University
+673, Physics III,Business,NAIT
+674, Physics,Political Science,University of Calgary
+675, Economics V,Communications,NAIT
+676, History,Humanities,Macewan University
+677, Computer Science IV,Communications,University of Alberta
+678, Chemistry I,Humanities,University of Calgary
+679, Literature I,Economics,NAIT
+680, Chemistry,Finance,NAIT
+681, Physics,Political Science,NAIT
+682, Economics I,Business,NAIT
+683, Biology,Business,NAIT
+684, Chemistry,English,University of Alberta
+685, Economics,Biology,NAIT
+686, History,Finance,University of Calgary
+687, Biology,Economics,NAIT
+688, Physics,Design,University of Calgary
+689, Physics III,Economics,University of Alberta
+690, Biology,English,University of Calgary
+691, Biology II,Political Science,Macewan University
+692, Economics,Business,Macewan University
+693, Mathematics II,Accounting,University of Calgary
+694, Chemistry II,Economics,NAIT
+695, Physics,Finance,Macewan University
+696, Computer Science,Political Science,University of Alberta
+697, Chemistry,Communications,Macewan University
+698, Literature,Accounting,NAIT
+699, Mathematics,Finance,University of Alberta
+700, History,Computer Science,Macewan University
+701, Literature,Communications,University of Calgary
+702, History,Biology,NAIT
+703, Biology,Business,University of Calgary
+704, Biology,Economics,University of Alberta
+705, History,English,NAIT
+706, Biology,Economics,University of Alberta
+707, Economics III,Computer Science,University of Calgary
+708, History,Biology,University of Calgary
+709, Mathematics I,Political Science,University of Calgary
+710, Computer Science,Political Science,NAIT
+711, Literature,Communications,NAIT
+712, Physics,Finance,NAIT
+713, Literature,Finance,University of Calgary
+714, Mathematics,Communications,University of Calgary
+715, History,Humanities,University of Calgary
+716, Chemistry,Anthropology,NAIT
+717, Mathematics,Accounting,University of Calgary
+718, Biology,Design,Macewan University
+719, Physics,Anthropology,University of Calgary
+720, Computer Science,Accounting,NAIT
+721, Chemistry,Design,University of Calgary
+722, Chemistry,English,University of Calgary
+723, Mathematics,Computer Science,NAIT
+724, Biology,Anthropology,University of Calgary
+725, Chemistry I,Anthropology,University of Alberta
+726, Mathematics,Biology,NAIT
+727, Computer Science,Political Science,University of Alberta
+728, Literature,Accounting,NAIT
+729, Economics,Political Science,NAIT
+730, History,Accounting,University of Alberta
+731, History,Communications,Macewan University
+732, Literature,Economics,University of Alberta
+733, Mathematics,Anthropology,NAIT
+734, Computer Science,Finance,University of Alberta
+735, History III,Humanities,NAIT
+736, Computer Science,Finance,University of Alberta
+737, Mathematics II,Biology,NAIT
+738, Mathematics,Business,Macewan University
+739, History,Anthropology,Macewan University
+740, Mathematics,Design,University of Alberta
+741, Computer Science IV,Accounting,University of Calgary
+742, History,Computer Science,University of Calgary
+743, History,Biology,Macewan University
+744, Chemistry,Political Science,University of Alberta
+745, Chemistry I,Biology,NAIT
+746, Chemistry,Biology,Macewan University
+747, Computer Science IV,Anthropology,Macewan University
+748, History III,Biology,Macewan University
+749, Economics III,Communications,University of Alberta
+750, Literature,Political Science,Macewan University
+751, Physics II,Design,University of Alberta
+752, Computer Science,Accounting,University of Calgary
+753, Physics V,Economics,NAIT
+754, Mathematics,Economics,Macewan University
+755, Chemistry I,Economics,University of Calgary
+756, Computer Science,Biology,University of Alberta
+757, Biology,Anthropology,University of Calgary
+758, Biology,Anthropology,University of Calgary
+759, Computer Science V,English,University of Alberta
+760, History,English,University of Alberta
+761, Mathematics,Economics,Macewan University
+762, Physics V,Anthropology,NAIT
+763, Biology,Computer Science,University of Alberta
+764, Biology,Design,NAIT
+765, Biology,Humanities,Macewan University
+766, Mathematics,Humanities,University of Alberta
+767, Economics,Anthropology,NAIT
+768, Biology I,Finance,University of Alberta
+769, Biology I,Accounting,University of Alberta
+770, History,Business,NAIT
+771, Biology,Political Science,University of Alberta
+772, Chemistry,Finance,NAIT
+773, Physics,Finance,University of Alberta
+774, Biology II,Humanities,University of Alberta
+775, Literature,Business,NAIT
+776, Biology II,Computer Science,Macewan University
+777, Mathematics,Accounting,University of Calgary
+778, Biology V,Humanities,Macewan University
+779, Economics,Design,University of Alberta
+780, Chemistry,Political Science,Macewan University
+781, Computer Science,Computer Science,University of Alberta
+782, Physics II,Anthropology,University of Alberta
+783, Economics,Accounting,University of Calgary
+784, Chemistry II,Computer Science,NAIT
+785, Physics,English,University of Calgary
+786, Computer Science,Computer Science,NAIT
+787, Chemistry,Humanities,NAIT
+788, Economics,Design,NAIT
+789, Chemistry,Anthropology,NAIT
+790, Physics,Finance,Macewan University
+791, Mathematics II,Communications,NAIT
+792, Economics IV,Biology,University of Alberta
+793, Mathematics I,Finance,Macewan University
+794, Physics IV,Design,University of Calgary
+795, Economics,Political Science,University of Alberta
+796, Economics I,Finance,Macewan University
+797, Literature,Business,University of Alberta
+798, Computer Science,Political Science,NAIT
+799, Economics,Accounting,University of Calgary
+800, Chemistry,Accounting,Macewan University
+801, Physics,Biology,NAIT
+802, Chemistry,Humanities,NAIT
+803, Biology,Humanities,Macewan University
+804, Biology,English,NAIT
+805, Chemistry,Design,Macewan University
+806, Chemistry,Communications,University of Alberta
+807, History,Biology,NAIT
+808, Computer Science,Political Science,NAIT
+809, Literature,Accounting,University of Alberta
+810, Chemistry,Business,University of Alberta
+811, Biology,Computer Science,University of Calgary
+812, Chemistry,Business,University of Alberta
+813, Chemistry,Economics,Macewan University
+814, Mathematics,Biology,University of Calgary
+815, Computer Science,Computer Science,University of Alberta
+816, Mathematics,Finance,Macewan University
+817, Economics,Computer Science,University of Alberta
+818, Biology,Accounting,Macewan University
+819, Mathematics,Business,NAIT
+820, Economics,Political Science,University of Calgary
+821, Economics,English,Macewan University
+822, Computer Science,Computer Science,University of Alberta
+823, History I,Anthropology,University of Calgary
+824, Economics,Humanities,Macewan University
+825, Economics I,Communications,University of Calgary
+826, Mathematics IV,Humanities,NAIT
+827, Economics,Computer Science,Macewan University
+828, Mathematics,Humanities,Macewan University
+829, Literature,Finance,Macewan University
+830, Chemistry,Biology,Macewan University
+831, Mathematics,Political Science,University of Alberta
+832, Chemistry,Business,NAIT
+833, History III,Communications,Macewan University
+834, Economics V,Economics,NAIT
+835, Physics,Design,Macewan University
+836, Economics,Economics,NAIT
+837, Mathematics IV,Anthropology,University of Alberta
+838, Literature,Communications,University of Calgary
+839, Computer Science,Communications,University of Calgary
+840, History,Accounting,Macewan University
+841, Biology,Humanities,University of Calgary
+842, Chemistry III,Anthropology,Macewan University
+843, Literature,Finance,University of Calgary
+844, History I,Design,University of Calgary
+845, Physics,Business,University of Alberta
+846, Chemistry,Political Science,University of Calgary
+847, Physics IV,Biology,NAIT
+848, Mathematics,Political Science,University of Alberta
+849, Literature I,Computer Science,Macewan University
+850, Physics,Anthropology,University of Alberta
+851, Chemistry,Anthropology,University of Alberta
+852, Chemistry,Computer Science,University of Alberta
+853, Physics,Business,Macewan University
+854, History,Anthropology,Macewan University
+855, Computer Science IV,Biology,Macewan University
+856, Computer Science III,Business,University of Calgary
+857, Literature V,Business,University of Alberta
+858, Economics,Economics,Macewan University
+859, Literature,Humanities,Macewan University
+860, Economics,Design,Macewan University
+861, Biology,Finance,University of Calgary
+862, Physics,Accounting,NAIT
+863, Biology,Political Science,NAIT
+864, Literature,Humanities,NAIT
+865, Chemistry,Anthropology,NAIT
+866, Literature,Computer Science,NAIT
+867, Computer Science,English,Macewan University
+868, History V,English,University of Calgary
+869, Literature,Political Science,Macewan University
+870, Literature III,English,University of Alberta
+871, Physics,Accounting,University of Alberta
+872, Biology,Computer Science,Macewan University
+873, Economics,Computer Science,University of Alberta
+874, Biology III,Design,NAIT
+875, Mathematics,Biology,University of Calgary
+876, Physics,Anthropology,University of Calgary
+877, Economics,Anthropology,University of Alberta
+878, Mathematics,Finance,University of Alberta
+879, Biology II,Finance,University of Calgary
+880, Chemistry,Design,University of Calgary
+881, Economics,Communications,University of Calgary
+882, Literature,Accounting,University of Calgary
+883, Mathematics,Anthropology,University of Calgary
+884, Biology,Design,University of Alberta
+885, History,Humanities,NAIT
+886, Computer Science,Economics,University of Alberta
+887, Chemistry,Computer Science,University of Alberta
+888, Mathematics,Finance,NAIT
+889, Chemistry,Computer Science,University of Calgary
+890, Economics,Finance,NAIT
+891, Physics,Finance,University of Alberta
+892, Chemistry,Design,Macewan University
+893, Mathematics,Humanities,University of Alberta
+894, Literature,Finance,University of Alberta
+895, Economics,English,Macewan University
+896, Computer Science,Biology,Macewan University
+897, Computer Science,Design,University of Alberta
+898, Literature,English,NAIT
+899, History IV,Economics,University of Calgary
+900, Biology V,Anthropology,University of Alberta
+901, Chemistry,Political Science,University of Calgary
+902, Biology,Design,Macewan University
+903, Mathematics III,Design,University of Calgary
+904, Mathematics,Biology,NAIT
+905, Literature,Communications,NAIT
+906, History V,Computer Science,Macewan University
+907, Physics,Accounting,Macewan University
+908, Physics,Computer Science,University of Calgary
+909, Physics,Humanities,NAIT
+910, Economics,Communications,University of Alberta
+911, Economics,Business,NAIT
+912, Economics I,Finance,NAIT
+913, Biology,Humanities,University of Alberta
+914, History,Anthropology,NAIT
+915, Economics II,Anthropology,NAIT
+916, History,Economics,Macewan University
+917, History,Political Science,Macewan University
+918, Biology IV,Economics,University of Alberta
+919, Economics,Accounting,NAIT
+920, History,Humanities,NAIT
+921, Literature,Accounting,University of Calgary
+922, Physics,Humanities,University of Calgary
+923, Chemistry,Humanities,Macewan University
+924, Mathematics V,Design,University of Calgary
+925, Computer Science,Design,Macewan University
+926, Biology,English,NAIT
+927, Biology,Political Science,Macewan University
+928, History IV,Computer Science,University of Alberta
+929, Mathematics,Anthropology,NAIT
+930, Physics,Finance,University of Calgary
+931, Mathematics II,Computer Science,Macewan University
+932, Biology,Accounting,University of Alberta
+933, Computer Science,Economics,Macewan University
+934, Literature,Communications,NAIT
+935, Economics,Finance,University of Calgary
+936, Mathematics V,Economics,NAIT
+937, Chemistry,Economics,University of Alberta
+938, Computer Science,Economics,University of Calgary
+939, Mathematics,Humanities,University of Alberta
+940, Chemistry IV,Finance,University of Calgary
+941, History,English,University of Alberta
+942, History,Anthropology,University of Calgary
+943, Literature,Economics,University of Alberta
+944, Physics,Humanities,University of Calgary
+945, History,Design,Macewan University
+946, Biology,Design,University of Alberta
+947, Chemistry,Computer Science,NAIT
+948, Biology II,Computer Science,NAIT
+949, Computer Science III,Computer Science,NAIT
+950, Chemistry,Political Science,University of Alberta
+951, Economics IV,Finance,NAIT
+952, Computer Science I,Computer Science,NAIT
+953, Chemistry I,Political Science,Macewan University
+954, Mathematics,Business,NAIT
+955, History III,Political Science,University of Calgary
+956, Physics,Computer Science,Macewan University
+957, Biology I,Business,Macewan University
+958, Literature,Business,University of Calgary
+959, Mathematics,Design,University of Alberta
+960, Biology,Biology,University of Alberta
+961, Literature,Business,University of Alberta
+962, Chemistry,Design,Macewan University
+963, History,Accounting,NAIT
+964, Biology IV,Economics,University of Calgary
+965, Mathematics,Economics,University of Calgary
+966, Chemistry,Humanities,University of Alberta
+967, Physics,Business,NAIT
+968, Economics IV,Computer Science,University of Alberta
+969, Mathematics,Accounting,University of Calgary
+970, Physics,Computer Science,University of Calgary
+971, Physics,Political Science,Macewan University
+972, History,Political Science,Macewan University
+973, Biology,Biology,University of Calgary
+974, Computer Science I,English,University of Alberta
+975, Biology I,Computer Science,University of Calgary
+976, Physics V,Finance,Macewan University
+977, Literature,Political Science,Macewan University
+978, Economics I,Finance,NAIT
+979, Biology,Humanities,University of Calgary
+980, Mathematics,Business,University of Calgary
+981, Literature,Computer Science,Macewan University
+982, Computer Science,Finance,University of Alberta
+983, Chemistry,Accounting,Macewan University
+984, Biology II,Anthropology,NAIT
+985, Physics I,Communications,University of Alberta
+986, Economics,Finance,University of Calgary
+987, Economics IV,Humanities,NAIT
+988, Mathematics,Anthropology,University of Calgary
+989, Computer Science,Communications,NAIT
+990, History,Accounting,University of Calgary
+991, Mathematics,Humanities,University of Calgary
+992, History,Business,University of Alberta
+993, Computer Science,Design,Macewan University
+994, Biology,English,University of Calgary
+995, Mathematics,Biology,University of Alberta
+996, Economics,Anthropology,Macewan University
+997, History,Accounting,University of Alberta
+998, Chemistry,English,University of Alberta
+999, Chemistry,Economics,NAIT
+1000, Computer Science I,Economics,NAIT
