@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Course_Fact_Table>
+    <Fact>
+      <CourseID>1</CourseID>
+      <InstructorID>1</InstructorID>
+      <SectionID>1</SectionID>
+      <StudentID>1</StudentID>
+      <Count>1</Count>
+    </Fact>
+    <!-- Additional entries for Course_Fact_Table can be added here -->
+  </Course_Fact_Table>
+
+  <Student>
+    <StudentID>1</StudentID>
+    <Name>John Doe</Name>
+    <Major>Computer Science</Major>
+    <Gender>Male</Gender>
+  </Student>
+  <!-- Additional entries for Student can be added here -->
+
+  <Instructor>
+    <InstructorID>1</InstructorID>
+    <Name>Jane Smith</Name>
+    <Faculty>Engineering</Faculty>
+    <Rank>Professor</Rank>
+    <University>Example University</University>
+  </Instructor>
+  <!-- Additional entries for Instructor can be added here -->
+
+  <Course>
+    <CourseID>1</CourseID>
+    <Name>Introduction to Programming</Name>
+    <Department>Computer Science</Department>
+    <University>Example University</University>
+  </Course>
+  <!-- Additional entries for Course can be added here -->
+
+  <Section>
+    <SectionID>1</SectionID>
+    <Year>2024</Year>
+    <Semester>Spring</Semester>
+  </Section>
+  <!-- Additional entries for Section can be added here -->
+</Data>

@@ -342,49 +342,38 @@ namespace CMPT391DataWarehouse
             string xmlFileName = LoadFile();
 
 
-            string connectionString = "server=(local);Database=CMPT391DataWarehouse;Integrated Security=True";
-            DataTable dt = new DataTable();
             try
             {
                 // Create a connection string for Access database
-                using (SqlConnection conn = new SqlConnection(connectionString))
-                {
-                    // Create an XML document instance
-                    XmlDocument xmlDoc = new XmlDocument();
-
-                    // Load the XML file
-                    xmlDoc.Load(xmlFileName);
-
-                    XmlNode root = xmlDoc.DocumentElement;
-                    System.Diagnostics.Debug.WriteLine(xmlFileName);
-                   //start connection for insertions
-                   conn.Open();
-
-
-                    XmlNodeList factNodes = xmlDoc.SelectNodes("//Fact");
-
-
-                    foreach (XmlNode factNode in factNodes)
-                    {
-                        // Extract the IDs
-                        string courseId = factNode.SelectSingleNode("CourseID").InnerText;
-                        string instructorId = factNode.SelectSingleNode("InstructorID").InnerText;
-                        string sectionId = factNode.SelectSingleNode("SectionID").InnerText;
-                        string studentId = factNode.SelectSingleNode("StudentID").InnerText;
-
-                        // Construct the SQL insert statement
-                        string insertStatement = $"INSERT INTO Course_Fact_Table (CourseID, InstructorID, SectionID, StudentID, Count) VALUES ({courseId}, {instructorId}, {sectionId}, {studentId}, 1)";
-                        System.Diagnostics.Debug.WriteLine(insertStatement);
-                        executeQuery(insertStatement);
-                    }
-
-
-                    //close connections for insertions
-                    conn.Close();
-
                 
-                    
-                }
+                // Create an XML document instance
+                XmlDocument xmlDoc = new XmlDocument();
+
+                // Load the XML file
+                xmlDoc.Load(xmlFileName);
+
+                XmlNode root = xmlDoc.DocumentElement;
+                System.Diagnostics.Debug.WriteLine(xmlFileName);
+                //start connection for insertions
+
+
+                XmlNodeList factNodes = xmlDoc.SelectNodes("//Fact");
+                XmlNodeList studentNodes = xmlDoc.SelectNodes("//Student");
+                XmlNodeList instructorNodes = xmlDoc.SelectNodes("//Instructor");
+                XmlNodeList courseNodes = xmlDoc.SelectNodes("//Course");
+                XmlNodeList sectionNodes = xmlDoc.SelectNodes("//Section");
+
+
+                readCourseNodes(courseNodes);
+                readStudentNodes(studentNodes);
+                readInstructorNodes(instructorNodes);
+                readeSectionNodes(sectionNodes);
+                readFactNodes(factNodes);
+
+
+
+
+
             }
             catch (Exception ex)
             {
@@ -393,6 +382,88 @@ namespace CMPT391DataWarehouse
 
 
         }
+
+        private void readFactNodes(XmlNodeList factNodes)
+        {
+
+            foreach (XmlNode factNode in factNodes)
+            {
+                // Extract the IDs
+                string courseId = factNode.SelectSingleNode("CourseID").InnerText;
+                string instructorId = factNode.SelectSingleNode("InstructorID").InnerText;
+                string sectionId = factNode.SelectSingleNode("SectionID").InnerText;
+                string studentId = factNode.SelectSingleNode("StudentID").InnerText;
+
+                string insertStatement = $"INSERT INTO Course_Fact_Table (CourseID, InstructorID, SectionID, StudentID, Count) VALUES ({courseId}, {instructorId}, {sectionId}, {studentId}, 1)";
+                System.Diagnostics.Debug.WriteLine(insertStatement);
+                executeQuery(insertStatement);
+            }
+
+        }
+
+        private void readStudentNodes(XmlNodeList studentNodes)
+        {
+            foreach (XmlNode studentNode in studentNodes)
+            {
+                string studentId = studentNode.SelectSingleNode("StudentID").InnerText;
+                string name = studentNode.SelectSingleNode("Name").InnerText;
+                string major = studentNode.SelectSingleNode("Major").InnerText;
+                string gender = studentNode.SelectSingleNode("Gender").InnerText;
+
+                string insertStatement = $"INSERT INTO Student (StudentID, Name, Major, Gender) VALUES ('{studentId}', '{name}', '{major}', '{gender}')";
+
+                executeQuery(insertStatement);
+            }
+        }
+
+        private void readInstructorNodes(XmlNodeList instructorNodes)
+        {
+            foreach (XmlNode instructorNode in instructorNodes)
+            {
+                string instructorId = instructorNode.SelectSingleNode("InstructorID").InnerText;
+                string name = instructorNode.SelectSingleNode("Name").InnerText;
+                string faculty = instructorNode.SelectSingleNode("Faculty").InnerText;
+                string rank = instructorNode.SelectSingleNode("Rank").InnerText;
+                string university = instructorNode.SelectSingleNode("University").InnerText;
+
+                string insertStatement = $"INSERT INTO Instructor (InstructorID, Name, Faculty, Rank, University) VALUES ('{instructorId}', '{name}', '{faculty}', '{rank}', '{university}')";
+
+                executeQuery(insertStatement);
+            }
+        }
+
+        private void readCourseNodes(XmlNodeList courseNodes)
+        {
+            foreach (XmlNode courseNode in courseNodes)
+            {
+                string courseId = courseNode.SelectSingleNode("CourseID").InnerText;
+                string name = courseNode.SelectSingleNode("Name").InnerText;
+                string department = courseNode.SelectSingleNode("Department").InnerText;
+                string university = courseNode.SelectSingleNode("University").InnerText;
+
+                // Construct and execute the insert statement for Course
+                string insertStatement = $"INSERT INTO Course (CourseID, Name, Department, University) VALUES ('{courseId}', '{name}', '{department}', '{university}')";
+
+                executeQuery(insertStatement);
+            }
+        }
+
+        private void readeSectionNodes(XmlNodeList sectionNodes)
+        {
+            foreach (XmlNode sectionNode in sectionNodes)
+            {
+                string sectionId = sectionNode.SelectSingleNode("SectionID").InnerText;
+                string year = sectionNode.SelectSingleNode("Year").InnerText;
+                string semester = sectionNode.SelectSingleNode("Semester").InnerText;
+
+                // Construct and execute the insert statement for Section
+                string insertStatement = $"INSERT INTO Section (SectionID, Year, Semester) VALUES ('{sectionId}', '{year}', '{semester}')";
+
+                executeQuery(insertStatement);
+            }
+        }
+
+
     }
     
 }
