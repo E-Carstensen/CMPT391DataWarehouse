@@ -65,6 +65,7 @@
             label_uniqueIds = new Label();
             label_query = new Label();
             LoadXML = new Button();
+            button1 = new Button();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridResults).BeginInit();
             SuspendLayout();
@@ -433,6 +434,15 @@
             LoadXML.Text = "Load XML file";
             LoadXML.UseVisualStyleBackColor = true;
             LoadXML.Click += LoadXML_Click;
+            // button1
+            // 
+            button1.Location = new Point(1320, 962);
+            button1.Name = "button1";
+            button1.Size = new Size(122, 34);
+            button1.TabIndex = 30;
+            button1.Text = "Import XML";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
@@ -440,6 +450,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1038, 618);
             Controls.Add(LoadXML);
+
+            ClientSize = new Size(1483, 1030);
+            Controls.Add(button1);
             Controls.Add(label_query);
             Controls.Add(label_uniqueIds);
             Controls.Add(label19);
@@ -498,5 +511,7 @@
         private Label label_uniqueIds;
         private Label label_query;
         private Button LoadXML;
+
+        private Button button1;
     }
 }
