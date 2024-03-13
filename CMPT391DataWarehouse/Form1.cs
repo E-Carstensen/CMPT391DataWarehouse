@@ -89,7 +89,7 @@ namespace CMPT391DataWarehouse
 
                 }
             }
-            catch (SqlException ex) { label_numResults.Text += "\n" + ex.Message; }
+            catch (SqlException ex) { label_query.Text += "\n" + ex.Message; }
         }
 
         private void updateLabels()
@@ -363,17 +363,14 @@ namespace CMPT391DataWarehouse
                 XmlNodeList courseNodes = xmlDoc.SelectNodes("//Course");
                 XmlNodeList sectionNodes = xmlDoc.SelectNodes("//Section");
 
-
-                readCourseNodes(courseNodes);
-                readStudentNodes(studentNodes);
-                readInstructorNodes(instructorNodes);
-                readeSectionNodes(sectionNodes);
-                readFactNodes(factNodes);
-
+                if (courseNodes != null) { readCourseNodes(courseNodes); } 
+                if (sectionNodes != null) { readSectionNodes(sectionNodes); }
+                if (studentNodes != null) { readStudentNodes(studentNodes); }
+                if (instructorNodes != null) { readInstructorNodes(instructorNodes); }
+                if (factNodes != null) { readFactNodes(factNodes); }
 
 
-
-
+                      
             }
             catch (Exception ex)
             {
@@ -448,7 +445,7 @@ namespace CMPT391DataWarehouse
             }
         }
 
-        private void readeSectionNodes(XmlNodeList sectionNodes)
+        private void readSectionNodes(XmlNodeList sectionNodes)
         {
             foreach (XmlNode sectionNode in sectionNodes)
             {
