@@ -13,7 +13,7 @@
 
   <Student>
     <StudentID>1</StudentID>
-    <Name>John Doe</Name>
+    <Name>Eric Carstensen</Name>
     <Major>Computer Science</Major>
     <Gender>Male</Gender>
   </Student>
@@ -21,7 +21,7 @@
 
   <Instructor>
     <InstructorID>1</InstructorID>
-    <Name>Jane Smith</Name>
+    <Name>El Hajj</Name>
     <Faculty>Engineering</Faculty>
     <Rank>Professor</Rank>
     <University>Example University</University>
@@ -30,7 +30,7 @@
 
   <Course>
     <CourseID>1</CourseID>
-    <Name>Introduction to Programming</Name>
+    <Name>Fake Course</Name>
     <Department>Computer Science</Department>
     <University>Example University</University>
   </Course>
@@ -38,7 +38,7 @@
 
   <Section>
     <SectionID>1</SectionID>
-    <Year>2024</Year>
+    <Year>1975</Year>
     <Semester>Spring</Semester>
   </Section>
   <!-- Additional entries for Section can be added here -->

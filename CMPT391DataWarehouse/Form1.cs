@@ -89,7 +89,7 @@ namespace CMPT391DataWarehouse
 
                 }
             }
-            catch (SqlException ex) { label_numResults.Text += "\n" + ex.Message; }
+            catch (SqlException ex) { label_query.Text += "\n" + ex.Message; }
         }
 
         private void updateLabels()
