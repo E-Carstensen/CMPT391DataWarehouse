@@ -1,6 +1,7 @@
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace CMPT391DataWarehouse
 {
@@ -269,6 +270,67 @@ namespace CMPT391DataWarehouse
         private void label12_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private string LoadFile()
+        {
+            string filePath = "";
+
+            // Create OpenFileDialog
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            // Set properties for OpenFileDialog
+            openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments); // Set initial directory
+            openFileDialog.Filter = "All files (*.*)|*.*"; // Filter files by extension
+
+            // Show OpenFileDialog
+            DialogResult result = openFileDialog.ShowDialog();
+
+            // Process input if the user clicked OK
+            if (result == DialogResult.OK)
+            {
+                // Get the selected file path
+                filePath = openFileDialog.FileName;
+            }
+
+            // Return the selected file path
+            return filePath;
+        }
+
+        private XmlDocument ReadXmlFile(string fileName)
+        {
+            // Create a new XmlDocument instance
+            XmlDocument doc = new XmlDocument();
+            try
+            {
+                
+
+                // Load the XML file
+                doc.Load(fileName);
+
+                // Print the XML content
+                Console.WriteLine("XML content:");
+                Console.WriteLine(doc.InnerXml);
+                
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions
+                Console.WriteLine($"An error occurred while reading the XML file '{fileName}': {ex.Message}");
+            }
+            return doc;
+        }
+
+        private void LoadXML_Click(object sender, EventArgs e)
+        {
+            String filePath = LoadFile();
+            XmlDocument doc = ReadXmlFile(filePath);
+            Console.WriteLine(filePath);
         }
     }
 }
