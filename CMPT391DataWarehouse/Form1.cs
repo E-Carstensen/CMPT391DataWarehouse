@@ -339,7 +339,7 @@ namespace CMPT391DataWarehouse
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string xmlFileName = Microsoft.VisualBasic.Interaction.InputBox("XML File Name", "File Name Input", "Default Text");
+            string xmlFileName = LoadFile();
 
 
             string connectionString = "server=(local);Database=CMPT391DataWarehouse;Integrated Security=True";
@@ -375,10 +375,7 @@ namespace CMPT391DataWarehouse
                         // Construct the SQL insert statement
                         string insertStatement = $"INSERT INTO Course_Fact_Table (CourseID, InstructorID, SectionID, StudentID, Count) VALUES ({courseId}, {instructorId}, {sectionId}, {studentId}, 1)";
                         System.Diagnostics.Debug.WriteLine(insertStatement);
-                        SqlCommand cmd = new SqlCommand("proc_exec_query", conn);
-                        cmd.CommandType = CommandType.StoredProcedure;
-                        cmd.Parameters.AddWithValue("@query", insertStatement);
-                        cmd.ExecuteNonQuery();
+                        executeQuery(insertStatement);
                     }
 
 

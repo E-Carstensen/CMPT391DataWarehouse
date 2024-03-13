@@ -64,7 +64,6 @@
             label19 = new Label();
             label_uniqueIds = new Label();
             label_query = new Label();
-            LoadXML = new Button();
             button1 = new Button();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridResults).BeginInit();
@@ -425,18 +424,9 @@
             label_query.TabIndex = 29;
             label_query.Text = " ";
             // 
-            // LoadXML
-            // 
-            LoadXML.Location = new Point(850, 577);
-            LoadXML.Name = "LoadXML";
-            LoadXML.Size = new Size(159, 28);
-            LoadXML.TabIndex = 30;
-            LoadXML.Text = "Load XML file";
-            LoadXML.UseVisualStyleBackColor = true;
-            LoadXML.Click += LoadXML_Click;
             // button1
             // 
-            button1.Location = new Point(1320, 962);
+            button1.Location = new Point(877, 572);
             button1.Name = "button1";
             button1.Size = new Size(122, 34);
             button1.TabIndex = 30;
@@ -448,9 +438,6 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1038, 618);
-            Controls.Add(LoadXML);
-
             ClientSize = new Size(1483, 1030);
             Controls.Add(button1);
             Controls.Add(label_query);
@@ -510,7 +497,6 @@
         private Label label19;
         private Label label_uniqueIds;
         private Label label_query;
-        private Button LoadXML;
 
         private Button button1;
     }
