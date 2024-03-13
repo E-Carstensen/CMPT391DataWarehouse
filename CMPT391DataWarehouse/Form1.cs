@@ -1,6 +1,10 @@
+using Microsoft.VisualBasic.ApplicationServices;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using System.Xml;
+using System.Xml.Linq;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace CMPT391DataWarehouse
 {
@@ -270,5 +274,67 @@ namespace CMPT391DataWarehouse
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            string xmlFileName = Microsoft.VisualBasic.Interaction.InputBox("XML File Name", "File Name Input", "Default Text");
+
+
+            string connectionString = "server=(local);Database=CMPT391DataWarehouse;Integrated Security=True";
+            DataTable dt = new DataTable();
+            try
+            {
+                // Create a connection string for Access database
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    // Create an XML document instance
+                    XmlDocument xmlDoc = new XmlDocument();
+
+                    // Load the XML file
+                    xmlDoc.Load(xmlFileName);
+
+                    XmlNode root = xmlDoc.DocumentElement;
+                    System.Diagnostics.Debug.WriteLine(xmlFileName);
+                   //start connection for insertions
+                   conn.Open();
+
+
+                    XmlNodeList factNodes = xmlDoc.SelectNodes("//Fact");
+
+
+                    foreach (XmlNode factNode in factNodes)
+                    {
+                        // Extract the IDs
+                        string courseId = factNode.SelectSingleNode("CourseID").InnerText;
+                        string instructorId = factNode.SelectSingleNode("InstructorID").InnerText;
+                        string sectionId = factNode.SelectSingleNode("SectionID").InnerText;
+                        string studentId = factNode.SelectSingleNode("StudentID").InnerText;
+
+                        // Construct the SQL insert statement
+                        string insertStatement = $"INSERT INTO Course_Fact_Table (CourseID, InstructorID, SectionID, StudentID, Count) VALUES ({courseId}, {instructorId}, {sectionId}, {studentId}, 1)";
+                        System.Diagnostics.Debug.WriteLine(insertStatement);
+                        SqlCommand cmd = new SqlCommand("proc_exec_query", conn);
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@query", insertStatement);
+                        cmd.ExecuteNonQuery();
+                    }
+
+
+                    //close connections for insertions
+                    conn.Close();
+
+                
+                    
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine (ex.Message);
+            }
+
+
+        }
     }
+    
 }

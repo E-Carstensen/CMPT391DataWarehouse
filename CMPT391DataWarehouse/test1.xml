@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Course_Fact_table>
+  <Fact>
+    <CourseID>2</CourseID>
+    <InstructorID>2</InstructorID>
+    <SectionID>2</SectionID>
+    <StudentID>3</StudentID>
+    <Count>1</Count>
+  </Fact>
+  <Fact>
+    <CourseID>2</CourseID>
+    <InstructorID>2</InstructorID>
+    <SectionID>4</SectionID>
+    <StudentID>3</StudentID>
+    <Count>1</Count>
+  </Fact>
+  <Fact>
+    <CourseID>1</CourseID>
+    <InstructorID>5</InstructorID>
+    <SectionID>1</SectionID>
+    <StudentID>8</StudentID>
+    <Count>1</Count>
+  </Fact>
+</Course_Fact_table>
